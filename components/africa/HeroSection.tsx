@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 
 interface HeroSectionProps {
   theme: 'light' | 'dark';
@@ -166,10 +167,12 @@ export function HeroSection({ theme, toggleTheme }: HeroSectionProps) {
             {/* Right Content - Image */}
             <div className="relative">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-                <img
-                  src="https://readdy.ai/api/search-image?query=Modern%20African%20technology%20startup%20office%20with%20diverse%20team%20of%20software%20engineers%20collaborating%20on%20laptops%20and%20digital%20screens%2C%20contemporary%20workspace%20in%20Lagos%20or%20Nairobi%20with%20natural%20lighting%2C%20professional%20photography%20showcasing%20innovation%20and%20teamwork%20in%20African%20tech%20ecosystem%2C%20vibrant%20atmosphere%20with%20modern%20architecture%20and%20technology%20infrastructure%2C%20clean%20minimal%20background%20emphasizing%20collaboration%20and%20growth&width=800&height=900&seq=africa-tech-hero-001&orientation=portrait"
+                <Image
+                  src="/images/hero/africa-tech-ecosystem.jpg"
                   alt="African Tech Ecosystem"
                   className="w-full h-auto object-cover object-top"
+                  width={600}
+                  height={400}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent"></div>
               </div>

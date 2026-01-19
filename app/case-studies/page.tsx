@@ -3,14 +3,25 @@
 import { useState, useEffect } from 'react';
 import { Navigation } from '@/components/shared/Navigation';
 import { Footer } from '@/components/shared/Footer';
+import { Header } from '@/components/shared/Header';
 
 export default function CaseStudiesPage() {
   const [selectedIndustry, setSelectedIndustry] = useState('all');
   const [selectedRegion, setSelectedRegion] = useState('all');
+  const [theme, setTheme] = useState<'light' | 'dark'>('light');
 
   useEffect(() => {
-    window.scrollTo(0, 0);
+    const savedTheme = localStorage.getItem('theme') as 'light' | 'dark' || 'light';
+    setTheme(savedTheme);
+    document.documentElement.classList.toggle('dark', savedTheme === 'dark');
   }, []);
+
+  const toggleTheme = () => {
+    const newTheme = theme === 'light' ? 'dark' : 'light';
+    setTheme(newTheme);
+    localStorage.setItem('theme', newTheme);
+    document.documentElement.classList.toggle('dark');
+  };
 
   const industries = ['all', 'FinTech', 'HealthTech', 'EdTech', 'CleanTech', 'E-Commerce', 'SaaS'];
   const regions = ['all', 'Africa', 'Europe', 'Middle East', 'India', 'Global'];
@@ -170,11 +181,21 @@ export default function CaseStudiesPage() {
 
   return (
     <div className="min-h-screen bg-white dark:bg-slate-900">
-      <Navigation />
+      <Header  theme={theme} toggleTheme={toggleTheme}/>
       
       {/* Hero Section */}
       <section className="relative pt-24 sm:pt-32 pb-16 sm:pb-24 px-4 sm:px-6 overflow-hidden">
-        <div className="container mx-auto">
+        {/* Background Image with Overlay */}
+        <div className="absolute inset-0 z-0">
+          <img
+            src="https://readdy.ai/api/search-image?query=Modern%20technology%20success%20story%20visualization%20with%20abstract%20digital%20network%20connections%2C%20data%20analytics%20dashboards%2C%20and%20growth%20metrics%20displayed%20on%20screens%20in%20contemporary%20office%20environment%2C%20professional%20business%20atmosphere%20with%20soft%20lighting%2C%20clean%20minimal%20aesthetic%20emphasizing%20innovation%20and%20achievement%2C%20subtle%20gradient%20overlay%20suitable%20for%20text%20placement&width=1920&height=800&seq=casestudies-hero-bg-001&orientation=landscape"
+            alt="Success Stories Background"
+            className="w-full h-full object-cover object-center"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-white/95 via-white/90 to-white/95 dark:from-slate-900/95 dark:via-slate-900/90 dark:to-slate-900/95"></div>
+        </div>
+
+        <div className="container mx-auto relative z-10">
           <div className="text-center max-w-4xl mx-auto">
             <div className="inline-flex items-center space-x-2 px-4 py-2 bg-indigo-50 dark:bg-indigo-900/20 rounded-full border border-indigo-200 dark:border-indigo-800 mb-6">
               <i className="ri-trophy-line text-indigo-600 dark:text-indigo-400"></i>
@@ -209,13 +230,9 @@ export default function CaseStudiesPage() {
             </div>
           </div>
         </div>
+        </section>
 
-        {/* Background Decoration */}
-        <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-gradient-to-bl from-indigo-50 to-transparent dark:from-indigo-900/10 rounded-full blur-3xl -z-10"></div>
-        <div className="absolute bottom-0 left-0 w-1/2 h-1/2 bg-gradient-to-tr from-violet-50 to-transparent dark:from-violet-900/10 rounded-full blur-3xl -z-10"></div>
-      </section>
-
-      {/* Filters Section */}
+        {/* Filters Section */}
       <section className="py-8 px-4 sm:px-6 border-y border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-800/50">
         <div className="container mx-auto">
           <div className="flex flex-col lg:flex-row gap-6 items-start lg:items-center justify-between">
@@ -340,8 +357,8 @@ export default function CaseStudiesPage() {
               <p className="text-slate-600 dark:text-slate-400 mb-6">Try adjusting your filters to see more results</p>
               <button
                 onClick={() => {
-                  setSelectedIndustry('all');
-                  setSelectedRegion('all');
+                  setSelectedIndustry('All');
+                  setSelectedRegion('All');
                 }}
                 className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-violet-600 text-white rounded-lg font-medium hover:shadow-lg hover:shadow-indigo-500/30 transition-all cursor-pointer whitespace-nowrap"
               >

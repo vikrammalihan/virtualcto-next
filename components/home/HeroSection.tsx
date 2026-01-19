@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 
 interface HeroSectionProps {
   theme: 'light' | 'dark';
@@ -41,7 +42,7 @@ export function HeroSection({ theme, toggleTheme }: HeroSectionProps) {
             {/* Desktop Navigation */}
             <div className="hidden lg:flex items-center space-x-8">
               <a href="/about" className="text-sm font-medium text-slate-700 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors cursor-pointer">About</a>
-              <a href="#services" onClick={(e) => { e.preventDefault(); scrollToSection('services'); }} className="text-sm font-medium text-slate-700 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors cursor-pointer">Services</a>
+              <a href="services" onClick={(e) => { e.preventDefault(); scrollToSection('services'); }} className="text-sm font-medium text-slate-700 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors cursor-pointer">Services</a>
               <a href="/case-studies" className="text-sm font-medium text-slate-700 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors cursor-pointer">Case Studies</a>
               <a href="/blog" className="text-sm font-medium text-slate-700 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors cursor-pointer">Blog</a>
               <a href="/contact" className="text-sm font-medium text-slate-700 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors cursor-pointer">Contact</a>
@@ -56,7 +57,7 @@ export function HeroSection({ theme, toggleTheme }: HeroSectionProps) {
               >
                 <i className={`${theme === 'light' ? 'ri-moon-line' : 'ri-sun-line'} text-lg sm:text-xl`}></i>
               </button>
-              
+
               <button
                 onClick={() => scrollToSection('contact')}
                 className="hidden sm:block px-5 py-2.5 bg-gradient-to-r from-indigo-600 to-violet-600 text-white text-sm font-medium rounded-lg hover:shadow-lg hover:shadow-indigo-500/30 transition-all duration-300 whitespace-nowrap cursor-pointer"
@@ -166,10 +167,13 @@ export function HeroSection({ theme, toggleTheme }: HeroSectionProps) {
             {/* Right Content - Image */}
             <div className="relative">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-                <img
-                  src="https://readdy.ai/api/search-image?query=Professional%20technology%20executive%20in%20modern%20office%20environment%2C%20confident%20business%20leader%20with%20laptop%20and%20digital%20screens%20showing%20data%20analytics%2C%20contemporary%20workspace%20with%20natural%20lighting%2C%20professional%20photography%20style%2C%20clean%20minimal%20background%20emphasizing%20leadership%20and%20innovation&width=800&height=900&seq=hero-cto-001&orientation=portrait"
+                <Image
+                  src="/images/hero/hero-vikram.jpg"
                   alt="Vikram Singh Malihan - Fractional CTO"
                   className="w-full h-auto object-cover object-top"
+                  width={600}
+                  height={700}
+                  unoptimized
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent"></div>
               </div>
