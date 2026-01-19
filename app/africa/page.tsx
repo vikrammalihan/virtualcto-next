@@ -1,14 +1,15 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { HeroSection } from '@/components/africa/HeroSection';
-import { StatsSection } from '@/components/africa/StatsSection';
-import { WhyAfricaSection } from '@/components/africa/WhyAfricaSection';
-import { ServicesSection } from '@/components/africa/ServicesSection';
-import { SuccessStoriesSection } from '@/components/africa/SuccessStoriesSection';
-import { EcosystemSection } from '@/components/africa/EcosystemSection';
-import { CTASection } from '@/components/africa/CTASection';
+import { HeroSection } from '@/app/africa/components/HeroSection';
+import { StatsSection } from '@/app/africa/components/StatsSection';
+import { WhyAfricaSection } from '@/app/africa/components/WhyAfricaSection';
+import { ServicesSection } from '@/app/africa/components/ServicesSection';
+import { SuccessStoriesSection } from '@/app/africa/components/SuccessStoriesSection';
+import { EcosystemSection } from '@/app/africa/components/EcosystemSection';
+import { CTASection } from '@/app/africa/components/CTASection';
 import { Footer } from '@/components/shared/Footer';
+import { Header } from '@/components/shared/Header';
 
 export default function AfricaPage() {
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
@@ -28,7 +29,8 @@ export default function AfricaPage() {
 
   return (
     <div className="min-h-screen bg-white dark:bg-slate-900 transition-colors duration-300">
-      <HeroSection theme={theme} toggleTheme={toggleTheme} />
+      <Header theme={theme} toggleTheme={toggleTheme} />
+      <HeroSection />
       <StatsSection />
       <WhyAfricaSection />
       <ServicesSection />
