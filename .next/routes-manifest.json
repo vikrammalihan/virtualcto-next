@@ -1,1 +1,179 @@
-{"version":3,"caseSensitive":false,"basePath":"","rewrites":{"beforeFiles":[],"afterFiles":[],"fallback":[]},"redirects":[{"source":"/:path+/","destination":"/:path+","permanent":true,"internal":true,"regex":"^(?:\\/((?:[^\\/]+?)(?:\\/(?:[^\\/]+?))*))\\/$"}],"headers":[]}
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/about",
+      "regex": "^/about(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about(?:/)?$"
+    },
+    {
+      "page": "/blog",
+      "regex": "^/blog(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog(?:/)?$"
+    },
+    {
+      "page": "/blog/post",
+      "regex": "^/blog/post(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/post(?:/)?$"
+    },
+    {
+      "page": "/book-consultation",
+      "regex": "^/book\\-consultation(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/book\\-consultation(?:/)?$"
+    },
+    {
+      "page": "/case-studies",
+      "regex": "^/case\\-studies(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/case\\-studies(?:/)?$"
+    },
+    {
+      "page": "/case-studies/case-study-detail",
+      "regex": "^/case\\-studies/case\\-study\\-detail(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/case\\-studies/case\\-study\\-detail(?:/)?$"
+    },
+    {
+      "page": "/contact",
+      "regex": "^/contact(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contact(?:/)?$"
+    },
+    {
+      "page": "/privacy-policy",
+      "regex": "^/privacy\\-policy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/privacy\\-policy(?:/)?$"
+    },
+    {
+      "page": "/regions/africa",
+      "regex": "^/regions/africa(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/regions/africa(?:/)?$"
+    },
+    {
+      "page": "/regions/europe",
+      "regex": "^/regions/europe(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/regions/europe(?:/)?$"
+    },
+    {
+      "page": "/regions/india",
+      "regex": "^/regions/india(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/regions/india(?:/)?$"
+    },
+    {
+      "page": "/regions/middle-east",
+      "regex": "^/regions/middle\\-east(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/regions/middle\\-east(?:/)?$"
+    },
+    {
+      "page": "/services",
+      "regex": "^/services(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services(?:/)?$"
+    },
+    {
+      "page": "/services/ai-ml-advisory",
+      "regex": "^/services/ai\\-ml\\-advisory(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/ai\\-ml\\-advisory(?:/)?$"
+    },
+    {
+      "page": "/services/architecture-consulting",
+      "regex": "^/services/architecture\\-consulting(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/architecture\\-consulting(?:/)?$"
+    },
+    {
+      "page": "/services/cto-fundraising",
+      "regex": "^/services/cto\\-fundraising(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/cto\\-fundraising(?:/)?$"
+    },
+    {
+      "page": "/services/fractional-cto",
+      "regex": "^/services/fractional\\-cto(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/fractional\\-cto(?:/)?$"
+    },
+    {
+      "page": "/services/packages",
+      "regex": "^/services/packages(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/packages(?:/)?$"
+    },
+    {
+      "page": "/services/team-building",
+      "regex": "^/services/team\\-building(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/team\\-building(?:/)?$"
+    },
+    {
+      "page": "/services/technical-due-diligence",
+      "regex": "^/services/technical\\-due\\-diligence(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/technical\\-due\\-diligence(?:/)?$"
+    },
+    {
+      "page": "/terms-of-service",
+      "regex": "^/terms\\-of\\-service(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/terms\\-of\\-service(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

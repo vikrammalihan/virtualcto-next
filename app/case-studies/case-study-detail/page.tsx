@@ -1,11 +1,11 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useState, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { Navigation } from '@/components/shared/Navigation';
 import { Footer } from '@/components/shared/Footer';
 
-export default function CaseStudyDetailPage() {
+function CaseStudyContent() {
   const searchParams = useSearchParams();
   const studyId = searchParams.get('id') || '1';
 
@@ -266,9 +266,7 @@ export default function CaseStudyDetailPage() {
   const study = caseStudies.find(s => s.id === studyId) || caseStudies[0];
 
   return (
-    <div className="min-h-screen bg-white dark:bg-slate-900">
-      <Navigation />
-
+    <>
       {/* Hero Section */}
       <section className="relative pt-24 sm:pt-32 pb-16 px-4 sm:px-6 overflow-hidden">
         <div className="container mx-auto">
@@ -526,7 +524,32 @@ export default function CaseStudyDetailPage() {
         <div className="absolute top-0 right-0 w-96 h-96 bg-white/5 rounded-full blur-3xl"></div>
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-violet-500/10 rounded-full blur-3xl"></div>
       </section>
+    </>
+  );
+}
 
+export default function CaseStudyDetailPage() {
+  const [theme, setTheme] = useState<'light' | 'dark'>('light');
+
+  useEffect(() => {
+    const savedTheme = localStorage.getItem('theme') as 'light' | 'dark' || 'light';
+    setTheme(savedTheme);
+    document.documentElement.classList.toggle('dark', savedTheme === 'dark');
+  }, []);
+
+  const toggleTheme = () => {
+    const newTheme = theme === 'light' ? 'dark' : 'light';
+    setTheme(newTheme);
+    localStorage.setItem('theme', newTheme);
+    document.documentElement.classList.toggle('dark');
+  };
+
+  return (
+    <div className="min-h-screen bg-white dark:bg-slate-900 transition-colors duration-300">
+      <Navigation theme={theme} toggleTheme={toggleTheme} />
+      <Suspense fallback={<div className="pt-32 text-center">Loading...</div>}>
+        <CaseStudyContent />
+      </Suspense>
       <Footer />
     </div>
   );

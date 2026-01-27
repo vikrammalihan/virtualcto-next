@@ -501,9 +501,24 @@ function BlogPostContent() {
 }
 
 export default function BlogPostPage() {
+  const [theme, setTheme] = useState<'light' | 'dark'>('light');
+
+  useEffect(() => {
+    const savedTheme = localStorage.getItem('theme') as 'light' | 'dark' || 'light';
+    setTheme(savedTheme);
+    document.documentElement.classList.toggle('dark', savedTheme === 'dark');
+  }, []);
+
+  const toggleTheme = () => {
+    const newTheme = theme === 'light' ? 'dark' : 'light';
+    setTheme(newTheme);
+    localStorage.setItem('theme', newTheme);
+    document.documentElement.classList.toggle('dark');
+  };
+  
   return (
     <div className="min-h-screen bg-white dark:bg-slate-900">
-      <Navigation />
+      <Navigation theme={theme} toggleTheme={toggleTheme} />
       <Suspense fallback={<div className="pt-32 text-center">Loading...</div>}>
         <BlogPostContent />
       </Suspense>
