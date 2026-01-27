@@ -1,7 +1,8 @@
 {
-  "/page": "app/page.js",
   "/case-studies/page": "app/case-studies/page.js",
-  "/technical-due-diligence/page": "app/technical-due-diligence/page.js",
-  "/team-building/page": "app/team-building/page.js",
-  "/africa/page": "app/africa/page.js"
+  "/services/packages/page": "app/services/packages/page.js",
+  "/services/page": "app/services/page.js",
+  "/blog/page": "app/blog/page.js",
+  "/about/page": "app/about/page.js",
+  "/regions/africa/page": "app/regions/africa/page.js"
 }

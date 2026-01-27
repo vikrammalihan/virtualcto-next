@@ -16,7 +16,9 @@ export function Footer() {
     'Fractional CTO',
     'Technical Due Diligence',
     'Architecture Consulting',
-    'Team Building'
+    'Team Building',
+    'CTO-Fundraising',
+    'AI/ML Advisory'
   ];
 
   const industries = [
@@ -70,11 +72,13 @@ export function Footer() {
                 <li key={index}>
                   <Link 
                     href={
-                      service === 'Fractional CTO' ? '/fractional-cto' : 
-                      service === 'Technical Due Diligence' ? '/technical-due-diligence' : 
-                      service === 'Architecture Consulting' ? '/architecture-consulting' :
-                      service === 'Team Building' ? '/team-building' :
-                      '#services'
+                      service === 'Fractional CTO' ? '/services/fractional-cto' : 
+                      service === 'Technical Due Diligence' ? '/services/technical-due-diligence' : 
+                      service === 'Architecture Consulting' ? '/services/architecture-consulting' :
+                      service === 'Team Building' ? '/services/team-building' :
+                      service === 'CTO-Fundraising' ? '/services/cto-fundraising' :
+                      service === 'AI/ML Advisory' ? '/services/ai-ml-advisory' :
+                      '/services'
                     } 
                     className="text-sm text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors cursor-pointer"
                   >
@@ -91,7 +95,7 @@ export function Footer() {
             <ul className="space-y-3">
               {industries.map((industry, index) => (
                 <li key={index}>
-                  <a href="#case-studies" className="text-sm text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors cursor-pointer">
+                  <a href="/case-studies#case-studies" className="text-sm text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors cursor-pointer">
                     {industry}
                   </a>
                 </li>
@@ -104,22 +108,22 @@ export function Footer() {
             <h4 className="text-sm font-semibold text-slate-900 dark:text-white mb-4">Regions</h4>
             <ul className="space-y-3">
               <li>
-                <Link href="/africa" className="text-sm text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors cursor-pointer">
+                <Link href="/regions/africa" className="text-sm text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors cursor-pointer">
                   Africa
                 </Link>
               </li>
               <li>
-                <Link href="/europe" className="text-sm text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors cursor-pointer">
+                <Link href="/regions/europe" className="text-sm text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors cursor-pointer">
                   Europe
                 </Link>
               </li>
               <li>
-                <Link href="/middle-east" className="text-sm text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors cursor-pointer">
+                <Link href="/regions/middle-east" className="text-sm text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors cursor-pointer">
                   Middle East
                 </Link>
               </li>
               <li>
-                <Link href="/india" className="text-sm text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors cursor-pointer">
+                <Link href="/regions/india" className="text-sm text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors cursor-pointer">
                   India
                 </Link>
               </li>
@@ -137,10 +141,10 @@ export function Footer() {
               <Link href="/about" className="text-sm text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors cursor-pointer">
                 About
               </Link>
-              <a href="#" className="text-sm text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors cursor-pointer">
+              <a href="/privacy-policy" className="text-sm text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors cursor-pointer">
                 Privacy Policy
               </a>
-              <a href="#" className="text-sm text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors cursor-pointer">
+              <a href="/terms-of-service" className="text-sm text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors cursor-pointer">
                 Terms of Service
               </a>
               <Link href="/contact" className="text-sm text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors cursor-pointer">
