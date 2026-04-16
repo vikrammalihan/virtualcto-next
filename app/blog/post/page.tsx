@@ -121,7 +121,7 @@ function BlogPostContent() {
       readTime: '10 min read',
       author: 'Vikram Sharma',
       authorRole: 'Fractional CTO',
-      image: 'https://readdy.ai/api/search-image?query=professional%20business%20meeting%20with%20investors%20reviewing%20technical%20documents%20and%20code%20architecture%20on%20large%20screens%20in%20modern%20conference%20room%20with%20clean%20minimalist%20design&width=1200&height=600&seq=blogpost2&orientation=landscape',
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/blog-002.jpg',
       content: {
         intro: 'Having conducted technical due diligence for over $500M in transactions, I have seen what separates successful acquisitions from problematic ones. Technical due diligence is not just about checking if the code works—it is about understanding risks, scalability, and long-term viability.',
         sections: [
@@ -192,7 +192,7 @@ function BlogPostContent() {
       readTime: '8 min read',
       author: 'Vikram Sharma',
       authorRole: 'Fractional CTO',
-      image: 'https://readdy.ai/api/search-image?query=software%20architecture%20blueprint%20with%20system%20diagrams%20and%20flowcharts%20on%20digital%20screens%20showing%20microservices%20and%20cloud%20infrastructure%20in%20modern%20tech%20office%20environment&width=1200&height=600&seq=blogpost3&orientation=landscape',
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/blog-003.jpg',
       content: {
         intro: 'Every growing startup faces this critical decision: should we refactor our existing codebase or rebuild from scratch? I have guided dozens of companies through this decision, and the answer is rarely straightforward. Let me share the framework I use to make this call.',
         sections: [
@@ -501,10 +501,10 @@ function BlogPostContent() {
 }
 
 export default function BlogPostPage() {
-  const [theme, setTheme] = useState<'light' | 'dark'>('light');
+  const [theme, setTheme] = useState<'light' | 'dark'>('dark');
 
   useEffect(() => {
-    const savedTheme = localStorage.getItem('theme') as 'light' | 'dark' || 'light';
+    const savedTheme = localStorage.getItem('theme') as 'light' | 'dark' || 'dark';
     setTheme(savedTheme);
     document.documentElement.classList.toggle('dark', savedTheme === 'dark');
   }, []);

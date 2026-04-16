@@ -136,8 +136,8 @@ export default function BlogPage() {
         <div className="container mx-auto">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {blogPosts.map((post) => (
+              <Link key={post.id} href={`/blog/post?id=${post.id}`}>
               <article
-                key={post.id}
                 className="group bg-white dark:bg-slate-800 rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700 hover:shadow-xl hover:shadow-indigo-500/10 transition-all duration-300 cursor-pointer"
               >
                 {/* Image */}
@@ -192,6 +192,7 @@ export default function BlogPage() {
                   </div>
                 </div>
               </article>
+              </Link>
             ))}
           </div>
         </div>

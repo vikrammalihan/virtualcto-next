@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="50%" stop-color="#4338ca"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded square background -->
+  <rect width="44" height="44" x="2" y="2" rx="10" ry="10" fill="url(#bg)"/>
+  <!-- Terminal prompt symbol -->
+  <text x="9" y="31" font-family="monospace" font-size="18" font-weight="bold" fill="white">&gt;_</text>
+  <!-- Violet dot (top-right accent) -->
+  <circle cx="41" cy="7" r="4" fill="#8b5cf6"/>
+  <circle cx="41" cy="7" r="2.5" fill="#a78bfa"/>
+</svg>
