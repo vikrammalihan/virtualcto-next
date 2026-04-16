@@ -1,5 +1,7 @@
 'use client';
 
+import Image from 'next/image';
+
 export function TestimonialsSection() {
   const testimonials = [
     {
@@ -84,10 +86,12 @@ export function TestimonialsSection() {
               className="bg-white dark:bg-slate-800 rounded-2xl p-6 border border-slate-200 dark:border-slate-700 hover:shadow-xl hover:border-indigo-500 dark:hover:border-indigo-500 transition-all duration-300"
             >
               <div className="flex items-center space-x-4 mb-4">
-                <img
+                <Image
                   src={testimonial.image}
                   alt={testimonial.name}
-                  className="w-14 h-14 rounded-full object-cover object-top border-2 border-indigo-500"
+                  width={56}
+                  height={56}
+                  className="rounded-full object-cover object-top border-2 border-indigo-500"
                 />
                 <div>
                   <div className="font-semibold text-slate-900 dark:text-white">{testimonial.name}</div>

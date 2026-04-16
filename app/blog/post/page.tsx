@@ -3,6 +3,7 @@
 import { useState, useEffect, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Footer } from '@/components/shared/Footer';
 import { Navigation } from '@/components/shared/Navigation';
 
@@ -326,11 +327,12 @@ function BlogPostContent() {
             </div>
 
             {/* Featured Image */}
-            <div className="w-full h-96 rounded-2xl overflow-hidden mb-12">
-              <img 
+            <div className="relative w-full h-96 rounded-2xl overflow-hidden mb-12">
+              <Image 
                 src={currentPost.image} 
                 alt={currentPost.title}
-                className="w-full h-full object-cover object-top"
+                fill
+                className="object-cover object-top"
               />
             </div>
 
@@ -439,11 +441,12 @@ function BlogPostContent() {
                     href={`/blog/post?id=${post.id}`}
                     className="bg-white dark:bg-slate-900 rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-700 hover:border-indigo-500 dark:hover:border-indigo-500 transition-all duration-300 group cursor-pointer"
                   >
-                    <div className="w-full h-48 overflow-hidden">
-                      <img 
+                    <div className="relative w-full h-48 overflow-hidden">
+                      <Image 
                         src={post.image} 
                         alt={post.title}
-                        className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-300"
+                        fill
+                        className="object-cover object-top group-hover:scale-105 transition-transform duration-300"
                       />
                     </div>
                     <div className="p-6">

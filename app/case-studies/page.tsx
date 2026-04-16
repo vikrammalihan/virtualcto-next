@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 import { Footer } from '@/components/shared/Footer';
 import { Header } from '@/components/shared/Header';
 
@@ -192,10 +193,11 @@ export default function CaseStudiesPage() {
       <section className="relative pt-24 sm:pt-32 pb-16 sm:pb-24 px-4 sm:px-6 overflow-hidden">
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
-          <img
+          <Image
             src="https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/casestudies-hero-bg-001.jpg"
             alt="Success Stories Background"
-            className="w-full h-full object-cover object-center"
+            fill
+            className="object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-white/95 via-white/90 to-white/95 dark:from-slate-900/95 dark:via-slate-900/90 dark:to-slate-900/95"></div>
         </div>
@@ -303,10 +305,11 @@ export default function CaseStudiesPage() {
               >
                 {/* Image */}
                 <div className="relative h-64 w-full overflow-hidden">
-                  <img
+                  <Image
                     src={study.image}
                     alt={study.title}
-                    className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-300"
+                    fill
+                    className="object-cover object-top group-hover:scale-105 transition-transform duration-300"
                   />
                   <div className="absolute top-4 left-4 flex gap-2">
                     <span className="px-3 py-1 bg-white/90 dark:bg-slate-800/90 backdrop-blur-sm text-indigo-600 dark:text-indigo-400 text-xs font-medium rounded-full">

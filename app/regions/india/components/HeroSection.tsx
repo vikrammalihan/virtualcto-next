@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 
 interface HeroSectionProps {
   theme: 'light' | 'dark';
@@ -63,11 +64,12 @@ export function HeroSection() {
 
             {/* Hero Image */}
             <div className="relative rounded-2xl overflow-hidden shadow-2xl max-w-5xl mx-auto">
-              <div className="w-full h-[400px] sm:h-[500px]">
-                <img
+              <div className="relative w-full h-[400px] sm:h-[500px]">
+                <Image
                   src="https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/india-hero-tech-001.jpg"
                   alt="India Tech Ecosystem"
-                  className="w-full h-full object-cover object-top"
+                  fill
+                  className="object-cover object-top"
                 />
               </div>
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900/40 via-transparent to-transparent"></div>

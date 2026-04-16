@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { Footer } from '@/components/shared/Footer';
+import Image from 'next/image';
 
 export default function TeamBuildingPage() {
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
@@ -421,7 +422,7 @@ export default function TeamBuildingPage() {
             {caseStudies.map((study, index) => (
               <div key={index} className="bg-white dark:bg-slate-900 rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700 hover:border-indigo-600 dark:hover:border-indigo-400 transition-all duration-300 cursor-pointer">
                 <div className="relative h-48 w-full overflow-hidden">
-                  <img src={study.image} alt={study.company} className="w-full h-full object-cover object-top" />
+                  <Image src={study.image} alt={study.company} fill className="object-cover object-top" />
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-3">{study.company}</h3>

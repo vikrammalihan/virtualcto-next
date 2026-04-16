@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react';
 import { Header } from '@/components/shared/Header';
 import { Footer } from '@/components/shared';
+import Image from 'next/image';
 
 export default function ServicePackagesPage() {
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
@@ -164,10 +165,11 @@ useEffect(() => {
       <Header theme={theme} toggleTheme={toggleTheme} />
       {/* Background Image */}
       <div className="fixed inset-0 z-0">
-        <img
+        <Image
           src="https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/service-packages-bg.jpg"
           alt="Service Packages Background"
-          className="w-full h-full object-cover object-center"
+          fill
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/40"></div>
       </div>

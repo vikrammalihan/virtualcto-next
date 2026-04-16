@@ -1,4 +1,6 @@
 
+import Image from 'next/image';
+
 export function RecognitionSection() {
   const achievements = [
     {
@@ -120,12 +122,13 @@ export function RecognitionSection() {
 
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 rounded-full overflow-hidden flex-shrink-0">
-                    <img
+                    <Image
                       src={testimonial.avatar}
                       alt={testimonial.author}
+                      width={48}
+                      height={48}
                       className="w-full h-full object-cover"
                       onError={handleImageError}
-                      loading="lazy"
                     />
                   </div>
                   <div>

@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 
 export function FeaturedCaseStudies() {
   const caseStudies = [
@@ -62,10 +63,11 @@ export function FeaturedCaseStudies() {
               className="group bg-white dark:bg-slate-800 rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-700 hover:shadow-2xl hover:border-indigo-500 dark:hover:border-indigo-500 transition-all duration-300"
             >
               <div className="relative h-48 overflow-hidden">
-                <img
+                <Image
                   src={study.image}
                   alt={study.title}
-                  className="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500"
+                  fill
+                  className="object-cover object-top group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute top-4 left-4 flex items-center space-x-2">
                   <span className="px-3 py-1 bg-white/90 dark:bg-slate-900/90 backdrop-blur-sm text-xs font-semibold text-slate-900 dark:text-white rounded-full">

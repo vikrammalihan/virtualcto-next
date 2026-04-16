@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 interface HeroSectionProps {
   theme: 'light' | 'dark';
@@ -15,10 +16,11 @@ export function HeroSection() {
     <section className="relative min-h-[60vh] overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <img
+        <Image
           src="https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/about-hero-bg-001.jpg"
           alt="Technology Leadership"
-          className="w-full h-full object-cover object-center"
+          fill
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-white/95 via-white/90 to-white/95 dark:from-slate-900/95 dark:via-slate-900/90 dark:to-slate-900/95"></div>
       </div>

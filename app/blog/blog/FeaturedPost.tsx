@@ -1,5 +1,7 @@
 'use client';
 
+import Image from 'next/image';
+
 export function FeaturedPost() {
   return (
     <section className="py-12 sm:py-16 bg-slate-50 dark:bg-slate-800/50">
@@ -12,11 +14,12 @@ export function FeaturedPost() {
         <div className="bg-white dark:bg-slate-800 rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-700 hover:shadow-2xl transition-all duration-300">
           <div className="grid lg:grid-cols-2 gap-0">
             {/* Image */}
-            <div className="relative h-64 lg:h-auto">
-              <img
+            <div className="relative h-64 lg:h-[480px]">
+              <Image
                 src="https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/blog-featured-001.jpg"
                 alt="Featured Article"
-                className="w-full h-full object-cover object-top"
+                fill
+                className="object-cover object-top"
               />
               <div className="absolute top-4 left-4">
                 <span className="px-4 py-2 bg-gradient-to-r from-indigo-600 to-violet-600 text-white text-xs font-semibold rounded-full">

@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 
 interface HeroSectionProps {
   theme: 'light' | 'dark';
@@ -63,14 +64,12 @@ export function HeroSection() {
 
             {/* Hero Image */}
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-              <div className="w-full h-[500px]">
-                <img
+              <div className="relative w-full h-[500px]">
+                <Image
                   src="https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/hero-middleeast-001.jpg"
                   alt="Middle East Technology Hub"
-                  className="w-full h-full object-cover object-top"
-                  onError={(e) => {
-                    e.currentTarget.src = '/api/placeholder/1400/500';
-                  }}
+                  fill
+                  className="object-cover object-top"
                 />
               </div>
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent"></div>

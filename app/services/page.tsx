@@ -3,6 +3,7 @@
 
 import { useState, useEffect } from 'react';
 import { Footer } from '@/components/shared/Footer';
+import Image from 'next/image';
 
 export default function ServicesPage() {
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
@@ -342,10 +343,11 @@ export default function ServicesPage() {
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 overflow-hidden">
         <div className="absolute inset-0">
-          <img
+          <Image
             src="https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/services-hero-bg.jpg"
             alt="Technology Services"
-            className="w-full h-full object-cover object-top"
+            fill
+            className="object-cover object-top"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-slate-900/90 via-slate-900/85 to-slate-900/90"></div>
         </div>
@@ -599,10 +601,12 @@ export default function ServicesPage() {
                 
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 flex items-center justify-center">
-                    <img
+                    <Image
                       src={testimonial.avatar}
                       alt={testimonial.author}
-                      className="w-full h-full rounded-full object-cover"
+                      width={48}
+                      height={48}
+                      className="rounded-full object-cover"
                     />
                   </div>
                   <div>

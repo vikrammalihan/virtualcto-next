@@ -1,4 +1,5 @@
 'use client';
+import Image from 'next/image';
 
 export function SuccessStoriesSection() {
   const stories = [
@@ -75,11 +76,12 @@ export function SuccessStoriesSection() {
             >
               <div className="grid lg:grid-cols-2 gap-0">
                 {/* Image */}
-                <div className="relative h-80 lg:h-auto">
-                  <img
+                <div className="relative h-80 lg:h-[600px]">
+                  <Image
                     src={story.image}
                     alt={story.company}
-                    className="w-full h-full object-cover object-top"
+                    fill
+                    className="object-cover object-top"
                   />
                   <div className="absolute top-6 left-6">
                     <div className="bg-white/95 dark:bg-slate-800/95 backdrop-blur-sm rounded-lg px-4 py-2 border border-slate-200 dark:border-slate-700">

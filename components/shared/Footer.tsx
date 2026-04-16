@@ -95,7 +95,7 @@ export function Footer() {
             <ul className="space-y-3">
               {industries.map((industry, index) => (
                 <li key={index}>
-                  <a href="/case-studies#case-studies" className="text-sm text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors cursor-pointer">
+                  <a href={`/case-studies?industry=${industry}`} className="text-sm text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors cursor-pointer">
                     {industry}
                   </a>
                 </li>

@@ -1,5 +1,7 @@
 'use client';
 
+import Image from 'next/image';
+
 export function BlogGrid() {
   const articles = [
     {
@@ -112,10 +114,11 @@ export function BlogGrid() {
             >
               {/* Image */}
               <div className="relative h-48 overflow-hidden">
-                <img
+                <Image
                   src={article.image}
                   alt={article.title}
-                  className="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-300"
+                  fill
+                  className="object-cover object-top group-hover:scale-110 transition-transform duration-300"
                 />
                 <div className="absolute top-4 left-4">
                   <span className="px-3 py-1 bg-indigo-600/90 backdrop-blur-sm text-white text-xs font-semibold rounded-full">

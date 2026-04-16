@@ -1,5 +1,7 @@
 'use client';
 
+import Image from 'next/image';
+
 export function WhyChooseSection() {
   const reasons = [
     {
@@ -58,10 +60,13 @@ export function WhyChooseSection() {
           </div>
 
           <div className="relative">
-            <img
+            <Image
               src="https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/why-choose-001.jpg"
               alt="Technology Leadership"
-              className="w-full h-auto rounded-2xl shadow-2xl object-cover object-top"
+              width={600}
+              height={500}
+              sizes="(max-width: 1024px) 100vw, 50vw"
+                  className="w-full h-auto rounded-2xl shadow-2xl object-cover object-top"
             />
             <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-gradient-to-br from-indigo-600 to-violet-600 rounded-2xl -z-10"></div>
           </div>

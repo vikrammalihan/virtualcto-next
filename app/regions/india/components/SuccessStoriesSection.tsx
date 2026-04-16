@@ -1,4 +1,5 @@
 'use client';
+import Image from 'next/image';
 
 export function SuccessStoriesSection() {
   const stories = [
@@ -68,11 +69,12 @@ export function SuccessStoriesSection() {
             >
               <div className={`${index % 2 === 1 ? 'lg:order-2' : ''}`}>
                 <div className="rounded-xl overflow-hidden shadow-xl border border-slate-200 dark:border-slate-700">
-                  <div className="w-full h-[300px] sm:h-[400px]">
-                    <img
+                  <div className="relative w-full h-[300px] sm:h-[400px]">
+                    <Image
                       src={story.image}
                       alt={story.company}
-                      className="w-full h-full object-cover object-top"
+                      fill
+                      className="object-cover object-top"
                     />
                   </div>
                 </div>

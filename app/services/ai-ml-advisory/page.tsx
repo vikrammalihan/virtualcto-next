@@ -1,6 +1,7 @@
 'use client'
 import { useState, useEffect } from 'react';
 import { Footer } from '@/components/shared';
+import Image from 'next/image';
 
 export default function AIMLAdvisoryPage() {
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
@@ -377,10 +378,11 @@ export default function AIMLAdvisoryPage() {
       <section className="relative pt-32 pb-20 overflow-hidden">
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
-          <img
+          <Image
             src="https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/ai-ml-advisory-hero-bg.jpg"
             alt="AI/ML Integration Advisory"
-            className="w-full h-full object-cover object-center"
+            fill
+            className="object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-white/95 via-white/90 to-white/95 dark:from-slate-900/95 dark:via-slate-900/90 dark:to-slate-900/95"></div>
         </div>

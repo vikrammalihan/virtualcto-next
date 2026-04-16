@@ -2,6 +2,7 @@
 
 import { useEffect, useState, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
+import Image from 'next/image';
 import { Navigation } from '@/components/shared/Navigation';
 import { Footer } from '@/components/shared/Footer';
 
@@ -240,15 +241,15 @@ function CaseStudyContent() {
       },
       images: [
         {
-          url: 'https://readdy.ai/api/search-image?query=telemedicine%20video%20consultation%20interface%20showing%20doctor%20and%20patient%20interaction%2C%20modern%20healthcare%20software%20with%20indigo%20and%20violet%20design%2C%20professional%20medical%20technology&width=800&height=500&seq=case-detail-health-img1-002&orientation=landscape',
+          url: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/case-study-health-002.jpg',
           caption: 'Video consultation interface'
         },
         {
-          url: 'https://readdy.ai/api/search-image?query=AI%20diagnostic%20system%20analyzing%20medical%20images%2C%20machine%20learning%20healthcare%20technology%20with%20indigo%20interface%2C%20modern%20medical%20AI%20visualization&width=800&height=500&seq=case-detail-health-img2-002&orientation=landscape',
+          url: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/case-study-health-002.jpg',
           caption: 'AI-powered diagnostic tools'
         },
         {
-          url: 'https://readdy.ai/api/search-image?query=electronic%20health%20records%20dashboard%20with%20patient%20data%20visualization%2C%20secure%20healthcare%20information%20system%20with%20indigo%20and%20violet%20colors%2C%20modern%20medical%20software&width=800&height=500&seq=case-detail-health-img3-002&orientation=landscape',
+          url: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/case-study-health-002.jpg',
           caption: 'Electronic health records system'
         }
       ],
@@ -798,11 +799,12 @@ function CaseStudyContent() {
           {/* Hero Image */}
           <div className="max-w-6xl mx-auto">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-              <div className="w-full h-96 sm:h-[500px]">
-                <img
+              <div className="relative w-full h-96 sm:h-[500px]">
+                <Image
                   src={study.heroImage}
                   alt={study.title}
-                  className="w-full h-full object-cover object-top"
+                  fill
+                  className="object-cover object-top"
                 />
               </div>
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
@@ -958,10 +960,11 @@ function CaseStudyContent() {
             {study.images.map((image, index) => (
               <div key={index} className="group">
                 <div className="relative rounded-xl overflow-hidden mb-4 h-64">
-                  <img
+                  <Image
                     src={image.url}
                     alt={image.caption}
-                    className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-300"
+                    fill
+                    className="object-cover object-top group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
                 <p className="text-sm text-slate-600 dark:text-slate-400 text-center">{image.caption}</p>
