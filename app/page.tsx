@@ -14,10 +14,10 @@ import { CTASection } from '@/components/home/CTASection';
 import { Footer } from '@/components/shared/Footer';
 
 export default function HomePage() {
-  const [theme, setTheme] = useState<'light' | 'dark'>('light');
+  const [theme, setTheme] = useState<'light' | 'dark'>('dark');
 
   useEffect(() => {
-    const savedTheme = localStorage.getItem('theme') as 'light' | 'dark' || 'light';
+    const savedTheme = localStorage.getItem('theme') as 'light' | 'dark' || 'dark';
     setTheme(savedTheme);
     document.documentElement.classList.toggle('dark', savedTheme === 'dark');
   }, []);
