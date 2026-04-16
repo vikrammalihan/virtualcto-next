@@ -1,5 +1,7 @@
 'use client';
 
+import Link from 'next/link';
+
 export function ServicesOverview() {
   const services = [
     {
@@ -7,28 +9,32 @@ export function ServicesOverview() {
       title: 'Fractional CTO Services',
       description: 'Strategic technology leadership on-demand. Get C-level expertise without full-time commitment.',
       features: ['Technology Strategy', 'Team Leadership', 'Vendor Management', 'Budget Planning'],
-      color: 'from-indigo-600 to-violet-600'
+      color: 'from-indigo-600 to-violet-600',
+      link: '/services/fractional-cto'
     },
     {
       icon: 'ri-search-eye-line',
       title: 'Technical Due Diligence',
       description: 'Comprehensive technology assessment for investors and acquirers. Identify risks and opportunities.',
       features: ['Code Review', 'Architecture Analysis', 'Team Assessment', 'Risk Evaluation'],
-      color: 'from-indigo-600 to-violet-600'
+      color: 'from-indigo-600 to-violet-600',
+      link: '/services/technical-due-diligence'
     },
     {
       icon: 'ri-stack-line',
       title: 'Architecture Consulting',
       description: 'Design scalable, secure, and efficient systems. From MVP to enterprise-grade solutions.',
       features: ['System Design', 'Cloud Strategy', 'Security Review', 'Performance Optimization'],
-      color: 'from-indigo-600 to-violet-600'
+      color: 'from-indigo-600 to-violet-600',
+      link: '/services/architecture-consulting'
     },
     {
       icon: 'ri-team-line',
       title: 'Team Building & Scaling',
       description: 'Build high-performing engineering teams. Recruitment, training, and culture development.',
       features: ['Hiring Strategy', 'Team Structure', 'Process Setup', 'Culture Building'],
-      color: 'from-indigo-600 to-violet-600'
+      color: 'from-indigo-600 to-violet-600',
+      link: '/services/team-building'
     }
   ];
 
@@ -53,8 +59,8 @@ export function ServicesOverview() {
 
         <div className="grid sm:grid-cols-2 gap-6 sm:gap-8">
           {services.map((service, index) => (
+            <Link key={index} href={service.link}>
             <div
-              key={index}
               className="group bg-white dark:bg-slate-800 rounded-2xl p-6 sm:p-8 border border-slate-200 dark:border-slate-700 hover:shadow-2xl hover:border-indigo-500 dark:hover:border-indigo-500 transition-all duration-300"
             >
               <div className={`w-16 h-16 flex items-center justify-center bg-gradient-to-br ${service.color} rounded-xl mb-6 group-hover:scale-110 transition-transform duration-300`}>
@@ -80,10 +86,11 @@ export function ServicesOverview() {
                 ))}
               </div>
 
-              <button className="w-full px-6 py-3 bg-slate-100 dark:bg-slate-700 text-slate-900 dark:text-white text-sm font-semibold rounded-lg hover:bg-gradient-to-r hover:from-indigo-600 hover:to-violet-600 hover:text-white transition-all duration-300 whitespace-nowrap cursor-pointer">
+              <span className="block w-full px-6 py-3 bg-slate-100 dark:bg-slate-700 text-slate-900 dark:text-white text-sm font-semibold rounded-lg hover:bg-gradient-to-r hover:from-indigo-600 hover:to-violet-600 hover:text-white transition-all duration-300 whitespace-nowrap cursor-pointer text-center">
                 Learn More
-              </button>
+              </span>
             </div>
+            </Link>
           ))}
         </div>
       </div>

@@ -6,61 +6,71 @@ export function IndustriesSection() {
       icon: 'ri-bank-card-line',
       title: 'FinTech',
       description: 'Payment platforms, digital banking, blockchain solutions, and financial services innovation',
-      color: 'from-indigo-600 to-violet-600'
+      color: 'from-indigo-600 to-violet-600',
+      link: '/case-studies?industry=FinTech'
     },
     {
       icon: 'ri-heart-pulse-line',
       title: 'HealthTech',
       description: 'Telemedicine platforms, health records systems, medical devices, and patient care solutions',
-      color: 'from-indigo-600 to-violet-600'
+      color: 'from-indigo-600 to-violet-600',
+      link: '/case-studies?industry=HealthTech'
     },
     {
       icon: 'ri-book-open-line',
       title: 'EdTech',
       description: 'Learning management systems, online education platforms, and educational content delivery',
-      color: 'from-indigo-600 to-violet-600'
+      color: 'from-indigo-600 to-violet-600',
+      link: '/case-studies?industry=EdTech'
     },
     {
       icon: 'ri-leaf-line',
       title: 'CleanTech',
       description: 'Renewable energy solutions, sustainability platforms, and environmental monitoring systems',
-      color: 'from-indigo-600 to-violet-600'
+      color: 'from-indigo-600 to-violet-600',
+      link: '/case-studies?industry=CleanTech'
     },
     {
       icon: 'ri-gamepad-line',
       title: 'iGaming',
       description: 'Online gaming platforms, betting systems, casino solutions, and gaming infrastructure',
-      color: 'from-indigo-600 to-violet-600'
+      color: 'from-indigo-600 to-violet-600',
+      link: '/case-studies?industry=iGaming'
     },
     {
       icon: 'ri-home-smile-line',
       title: 'PropTech',
       description: 'Real estate platforms, property management systems, and smart building solutions',
-      color: 'from-indigo-600 to-violet-600'
+      color: 'from-indigo-600 to-violet-600',
+      link: '/case-studies?industry=PropTech'
     },
     {
       icon: 'ri-car-line',
       title: 'Mobility',
       description: 'Ride-sharing platforms, fleet management, logistics optimization, and transportation tech',
-      color: 'from-indigo-600 to-violet-600'
+      color: 'from-indigo-600 to-violet-600',
+      link: '/case-studies?industry=Mobility'
     },
     {
       icon: 'ri-shopping-cart-line',
       title: 'E-Commerce',
       description: 'Online marketplaces, retail platforms, inventory management, and customer experience systems',
-      color: 'from-indigo-600 to-violet-600'
+      color: 'from-indigo-600 to-violet-600',
+      link: '/case-studies?industry=E-Commerce'
     },
     {
       icon: 'ri-film-line',
       title: 'Media',
       description: 'Streaming platforms, content management systems, digital publishing, and entertainment tech',
-      color: 'from-indigo-600 to-violet-600'
+      color: 'from-indigo-600 to-violet-600',
+      link: '/case-studies?industry=Media'
     },
     {
       icon: 'ri-building-line',
       title: 'Enterprise',
       description: 'B2B SaaS solutions, enterprise software, workflow automation, and business intelligence',
-      color: 'from-indigo-600 to-violet-600'
+      color: 'from-indigo-600 to-violet-600',
+      link: '/case-studies?industry=SaaS'
     }
   ];
 
@@ -85,8 +95,9 @@ export function IndustriesSection() {
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6">
           {industries.map((industry, index) => (
-            <div
+            <a
               key={index}
+              href={industry.link}
               className="group relative bg-white dark:bg-slate-800 rounded-2xl p-6 border border-slate-200 dark:border-slate-700 hover:border-indigo-500 dark:hover:border-indigo-500 transition-all duration-300 overflow-hidden cursor-pointer"
             >
               {/* Icon State */}
@@ -114,7 +125,7 @@ export function IndustriesSection() {
 
               {/* Decorative Element */}
               <div className="absolute -bottom-2 -right-2 w-20 h-20 bg-gradient-to-br from-indigo-500/10 to-violet-500/10 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-500"></div>
-            </div>
+            </a>
           ))}
         </div>
 

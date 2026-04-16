@@ -7,12 +7,18 @@ import { Header } from '@/components/shared/Header';
 export default function CaseStudiesPage() {
   const [selectedIndustry, setSelectedIndustry] = useState('all');
   const [selectedRegion, setSelectedRegion] = useState('all');
-  const [theme, setTheme] = useState<'light' | 'dark'>('light');
+  const [theme, setTheme] = useState<'light' | 'dark'>('dark');
 
   useEffect(() => {
-    const savedTheme = localStorage.getItem('theme') as 'light' | 'dark' || 'light';
+    const savedTheme = localStorage.getItem('theme') as 'light' | 'dark' || 'dark';
     setTheme(savedTheme);
     document.documentElement.classList.toggle('dark', savedTheme === 'dark');
+
+    const params = new URLSearchParams(window.location.search);
+    const industryParam = params.get('industry');
+    if (industryParam) {
+      setSelectedIndustry(industryParam);
+    }
   }, []);
 
   const toggleTheme = () => {
