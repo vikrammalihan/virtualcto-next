@@ -38,7 +38,7 @@ export default function BlogPage() {
       author: 'Vikram Singh Malihan',
       date: 'March 15, 2024',
       readTime: '8 min read',
-      image: 'https://readdy.ai/api/search-image?query=Modern%20technology%20infrastructure%20with%20servers%20and%20cloud%20computing%20visualization%2C%20African%20startup%20office%20environment%20with%20developers%20working%20on%20laptops%2C%20contemporary%20workspace%20with%20digital%20screens%20showing%20system%20architecture%20diagrams%2C%20professional%20tech%20photography%20with%20warm%20lighting%20and%20innovative%20atmosphere&width=600&height=400&seq=blog-001&orientation=landscape',
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/blog-001.jpg',
       tags: ['Infrastructure', 'Startups', 'Africa']
     },
     {
@@ -49,7 +49,7 @@ export default function BlogPage() {
       author: 'Vikram Singh Malihan',
       date: 'March 10, 2024',
       readTime: '12 min read',
-      image: 'https://readdy.ai/api/search-image?query=Software%20architecture%20visualization%20with%20interconnected%20nodes%20and%20system%20diagrams%2C%20modern%20tech%20office%20with%20whiteboard%20showing%20microservices%20architecture%20patterns%2C%20professional%20developers%20discussing%20technical%20solutions%2C%20clean%20minimal%20background%20with%20blue%20and%20teal%20accent%20colors&width=600&height=400&seq=blog-002&orientation=landscape',
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/blog-002.jpg',
       tags: ['Architecture', 'Best Practices', 'Scaling']
     },
     {
@@ -60,7 +60,7 @@ export default function BlogPage() {
       author: 'Vikram Singh Malihan',
       date: 'March 5, 2024',
       readTime: '10 min read',
-      image: 'https://readdy.ai/api/search-image?query=Financial%20technology%20compliance%20and%20security%20concept%20with%20digital%20banking%20interface%2C%20professional%20business%20setting%20with%20documents%20and%20laptop%20showing%20regulatory%20frameworks%2C%20modern%20office%20environment%20with%20global%20map%20highlighting%20Africa%20Europe%20Middle%20East%2C%20clean%20professional%20photography&width=600&height=400&seq=blog-003&orientation=landscape',
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/blog-003.jpg',
       tags: ['FinTech', 'Compliance', 'Regulations']
     }
   ];

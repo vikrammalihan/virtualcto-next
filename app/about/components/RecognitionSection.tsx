@@ -32,19 +32,19 @@ export function RecognitionSection() {
       quote: 'Vikram\'s strategic guidance was instrumental in scaling our infrastructure from 10K to 1M users. His expertise saved us months of trial and error.',
       author: 'Sarah Johnson',
       role: 'CEO, FinTech Startup',
-      avatar: 'https://readdy.ai/api/search-image?query=Professional%20businesswoman%20CEO%20headshot%2C%20confident%20female%20executive%20portrait%2C%20modern%20corporate%20photography%20style%2C%20clean%20background&width=100&height=100&seq=testimonial-sarah-001&orientation=squarish'
+      avatar: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/testimonial-sarah-001.jpg'
     },
     {
       quote: 'Working with Vikram was like having a seasoned CTO on our team. He helped us make critical technology decisions that positioned us for sustainable growth.',
       author: 'Michael Chen',
       role: 'Founder, HealthTech Platform',
-      avatar: 'https://readdy.ai/api/search-image?query=Professional%20businessman%20founder%20headshot%2C%20confident%20male%20executive%20portrait%2C%20modern%20corporate%20photography%20style%2C%20clean%20background&width=100&height=100&seq=testimonial-michael-001&orientation=squarish'
+      avatar: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/testimonial-michael-001.jpg'
     },
     {
       quote: 'Vikram\'s team building expertise helped us hire our first 20 engineers. His structured approach and network were invaluable.',
       author: 'Priya Sharma',
       role: 'CTO, E-Commerce Startup',
-      avatar: 'https://readdy.ai/api/search-image?query=Professional%20businesswoman%20CTO%20headshot%2C%20confident%20female%20tech%20executive%20portrait%2C%20modern%20corporate%20photography%20style%2C%20clean%20background&width=100&height=100&seq=testimonial-priya-001&orientation=squarish'
+      avatar: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/testimonial-priya-001.jpg'
     }
   ];
 

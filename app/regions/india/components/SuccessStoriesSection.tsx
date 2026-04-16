@@ -6,7 +6,7 @@ export function SuccessStoriesSection() {
       company: 'EdTech Pro',
       location: 'Bangalore, Karnataka',
       industry: 'Education Technology',
-      image: 'https://readdy.ai/api/search-image?query=Modern%20Indian%20edtech%20startup%20office%20in%20Bangalore%20with%20young%20team%20working%20on%20educational%20technology%20platform%2C%20bright%20collaborative%20workspace%20with%20whiteboards%20showing%20learning%20analytics%20and%20student%20engagement%20metrics%2C%20contemporary%20Indian%20tech%20company%20atmosphere%20with%20natural%20lighting%20and%20vibrant%20colors&width=600&height=400&seq=india-edtech-bangalore-001&orientation=landscape',
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/india-edtech-bangalore-001.jpg',
       challenge: 'Needed to scale platform to handle 5M+ students across India with regional language support and offline capabilities.',
       solution: 'Implemented microservices architecture with CDN optimization, built progressive web app with offline-first approach, and integrated 12 Indian languages.',
       results: [
@@ -20,7 +20,7 @@ export function SuccessStoriesSection() {
       company: 'FinServe India',
       location: 'Mumbai, Maharashtra',
       industry: 'Financial Technology',
-      image: 'https://readdy.ai/api/search-image?query=Professional%20Indian%20fintech%20startup%20office%20in%20Mumbai%20with%20diverse%20team%20of%20financial%20technology%20experts%20working%20on%20digital%20payment%20solutions%2C%20modern%20workspace%20with%20multiple%20screens%20displaying%20UPI%20transactions%20and%20financial%20dashboards%2C%20sleek%20contemporary%20design%20with%20glass%20walls%20and%20city%20skyline%20view&width=600&height=400&seq=india-fintech-mumbai-002&orientation=landscape',
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/india-fintech-mumbai-002.jpg',
       challenge: 'Required RBI-compliant digital lending platform with seamless UPI integration and robust security for tier 2/3 cities.',
       solution: 'Built secure microfinance platform with UPI AutoPay, implemented data localization, achieved PCI DSS compliance, and optimized for low-bandwidth networks.',
       results: [
@@ -34,7 +34,7 @@ export function SuccessStoriesSection() {
       company: 'HealthConnect',
       location: 'Hyderabad, Telangana',
       industry: 'Healthcare Technology',
-      image: 'https://readdy.ai/api/search-image?query=Innovative%20Indian%20healthtech%20startup%20office%20in%20Hyderabad%20with%20medical%20technology%20team%20developing%20telemedicine%20platform%2C%20clean%20modern%20workspace%20with%20healthcare%20professionals%20and%20engineers%20collaborating%2C%20digital%20health%20displays%20showing%20patient%20data%20and%20medical%20analytics%2C%20professional%20lighting%20and%20contemporary%20design&width=600&height=400&seq=india-healthtech-hyderabad-003&orientation=landscape',
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/india-healthtech-hyderabad-003.jpg',
       challenge: 'Needed HIPAA-equivalent telemedicine platform connecting patients with doctors across urban and rural India.',
       solution: 'Developed ABDM-compliant telehealth platform with video consultation, e-prescription, and integration with 500+ diagnostic labs nationwide.',
       results: [

@@ -378,7 +378,7 @@ export default function AIMLAdvisoryPage() {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://readdy.ai/api/search-image?query=artificial%20intelligence%20machine%20learning%20integration%20modern%20technology%20neural%20networks%20abstract%20digital%20brain%20visualization%20sophisticated%20AI%20algorithms%20futuristic%20data%20processing%20ambient%20professional%20lighting%20clean%20minimalist%20design&width=1920&height=800&seq=ai-ml-advisory-hero-bg&orientation=landscape"
+            src="https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/ai-ml-advisory-hero-bg.jpg"
             alt="AI/ML Integration Advisory"
             className="w-full h-full object-cover object-center"
           />

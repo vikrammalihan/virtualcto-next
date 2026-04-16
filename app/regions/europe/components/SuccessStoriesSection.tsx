@@ -6,7 +6,7 @@ export function SuccessStoriesSection() {
       company: 'FinFlow',
       location: 'London, UK',
       industry: 'Fintech',
-      image: 'https://readdy.ai/api/search-image?query=modern%20london%20financial%20district%20skyline%20with%20iconic%20buildings%2C%20professional%20fintech%20office%20environment%2C%20clean%20minimalist%20design%2C%20blue%20and%20purple%20gradient%20lighting%2C%20business%20technology%20atmosphere&width=800&height=600&seq=europe-success-london-001&orientation=landscape',
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/europe-success-london-001.jpg',
       challenge: 'A London-based fintech startup needed to navigate PSD2 compliance while scaling their open banking platform across 15 European markets.',
       solution: 'Implemented comprehensive GDPR-compliant architecture, integrated with major European banks via Open Banking APIs, and built a scalable microservices infrastructure.',
       results: [
@@ -25,7 +25,7 @@ export function SuccessStoriesSection() {
       company: 'HealthTech Pro',
       location: 'Berlin, Germany',
       industry: 'HealthTech',
-      image: 'https://readdy.ai/api/search-image?query=modern%20berlin%20technology%20startup%20office%20with%20innovative%20healthcare%20technology%2C%20clean%20scandinavian%20design%20aesthetic%2C%20soft%20natural%20lighting%2C%20professional%20medical%20technology%20environment%2C%20minimalist%20workspace&width=800&height=600&seq=europe-success-berlin-002&orientation=landscape',
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/europe-success-berlin-002.jpg',
       challenge: 'A Berlin healthtech scale-up needed to comply with medical device regulations (MDR) while expanding their telemedicine platform across the EU.',
       solution: 'Designed GDPR-compliant patient data architecture, implemented end-to-end encryption, achieved MDR certification, and built multilingual platform supporting 12 languages.',
       results: [
@@ -44,7 +44,7 @@ export function SuccessStoriesSection() {
       company: 'GreenEnergy AI',
       location: 'Amsterdam, Netherlands',
       industry: 'CleanTech',
-      image: 'https://readdy.ai/api/search-image?query=modern%20amsterdam%20sustainable%20technology%20office%20with%20green%20energy%20innovation%2C%20clean%20eco-friendly%20design%2C%20natural%20lighting%20with%20plants%2C%20professional%20cleantech%20environment%2C%20minimalist%20dutch%20architecture&width=800&height=600&seq=europe-success-amsterdam-003&orientation=landscape',
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/europe-success-amsterdam-003.jpg',
       challenge: 'An Amsterdam cleantech startup needed to build an AI-powered energy optimization platform while securing EU Innovation Council funding.',
       solution: 'Developed scalable ML infrastructure on European cloud providers, ensured data sovereignty compliance, prepared successful EIC Accelerator application, and built partnerships with major European utilities.',
       results: [

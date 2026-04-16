@@ -33,7 +33,7 @@ export default function CaseStudiesPage() {
       region: 'Africa',
       date: '2024',
       duration: '18 months',
-      image: 'https://readdy.ai/api/search-image?query=modern%20fintech%20office%20with%20diverse%20African%20team%20working%20on%20financial%20technology%20platform%2C%20digital%20payment%20systems%20on%20screens%2C%20professional%20startup%20environment%20with%20teal%20and%20emerald%20accent%20lighting%2C%20contemporary%20workspace&width=800&height=500&seq=case-study-fintech-001&orientation=landscape',
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/case-study-fintech-001.jpg',
       challenge: 'A payment processing startup needed to scale from 10K to 1M+ daily transactions while ensuring PCI-DSS compliance and maintaining 99.99% uptime.',
       solution: 'Architected a microservices-based infrastructure with event-driven processing, implemented automated compliance monitoring, and built a real-time fraud detection system.',
       results: [
@@ -57,7 +57,7 @@ export default function CaseStudiesPage() {
       region: 'India',
       date: '2024',
       duration: '12 months',
-      image: 'https://readdy.ai/api/search-image?query=modern%20healthcare%20technology%20platform%20with%20medical%20professionals%20using%20telemedicine%20software%20in%20Indian%20hospital%2C%20clean%20medical%20environment%20with%20digital%20health%20records%2C%20teal%20and%20emerald%20interface%20elements%2C%20contemporary%20healthcare%20setting&width=800&height=500&seq=case-study-health-002&orientation=landscape',
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/case-study-health-002.jpg',
       challenge: 'Telemedicine platform needed to serve 500+ hospitals with HIPAA-compliant infrastructure and AI-powered diagnostics while handling sensitive patient data.',
       solution: 'Built HIPAA-compliant cloud infrastructure, implemented end-to-end encryption, integrated AI diagnostics, and created a scalable video consultation system.',
       results: [
@@ -81,7 +81,7 @@ export default function CaseStudiesPage() {
       region: 'Middle East',
       date: '2023',
       duration: '15 months',
-      image: 'https://readdy.ai/api/search-image?query=modern%20educational%20technology%20platform%20with%20students%20using%20digital%20learning%20tools%20in%20Middle%20Eastern%20classroom%2C%20contemporary%20learning%20environment%20with%20interactive%20displays%2C%20teal%20and%20emerald%20color%20scheme%2C%20diverse%20students%20engaged%20with%20technology&width=800&height=500&seq=case-study-edtech-003&orientation=landscape',
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/case-study-edtech-003.jpg',
       challenge: 'Learning management system needed to support 100K+ concurrent users across 15 countries with multi-language support and real-time collaboration features.',
       solution: 'Designed globally distributed architecture with CDN integration, implemented real-time collaboration tools, and built adaptive learning algorithms.',
       results: [
@@ -105,7 +105,7 @@ export default function CaseStudiesPage() {
       region: 'Europe',
       date: '2023',
       duration: '20 months',
-      image: 'https://readdy.ai/api/search-image?query=clean%20energy%20technology%20with%20IoT%20sensors%20and%20smart%20grid%20infrastructure%20in%20European%20setting%2C%20modern%20sustainable%20technology%20environment%2C%20data%20visualization%20dashboards%20with%20teal%20and%20emerald%20accents%2C%20renewable%20energy%20systems&width=800&height=500&seq=case-study-cleantech-004&orientation=landscape',
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/case-study-cleantech-004.jpg',
       challenge: 'Smart energy management system needed to process real-time data from 10K+ sensors with predictive analytics and automated optimization.',
       solution: 'Built IoT infrastructure with edge computing, implemented machine learning for predictive maintenance, and created real-time analytics dashboard.',
       results: [
@@ -129,7 +129,7 @@ export default function CaseStudiesPage() {
       region: 'Global',
       date: '2023',
       duration: '14 months',
-      image: 'https://readdy.ai/api/search-image?query=modern%20e-commerce%20platform%20with%20global%20logistics%20and%20shopping%20interface%2C%20contemporary%20retail%20technology%20environment%2C%20warehouse%20automation%20and%20digital%20commerce%20systems%20with%20teal%20and%20emerald%20lighting%2C%20international%20business%20setting&width=800&height=500&seq=case-study-ecommerce-005&orientation=landscape',
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/case-study-ecommerce-005.jpg',
       challenge: 'Database bottlenecks causing slow page loads and cart abandonment during peak traffic periods, affecting conversion rates and customer satisfaction.',
       solution: 'Implemented CQRS pattern with Redis caching, database sharding, and CDN optimization. Built real-time inventory management and personalization engine.',
       results: [
@@ -153,7 +153,7 @@ export default function CaseStudiesPage() {
       region: 'Europe',
       date: '2022',
       duration: '16 months',
-      image: 'https://readdy.ai/api/search-image?query=modern%20SaaS%20platform%20with%20European%20team%20working%20on%20cloud%20software%2C%20contemporary%20office%20with%20multiple%20screens%20showing%20analytics%20dashboards%2C%20teal%20and%20emerald%20interface%20design%2C%20professional%20technology%20workspace&width=800&height=500&seq=case-study-saas-006&orientation=landscape',
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/case-study-saas-006.jpg',
       challenge: 'Legacy monolithic application struggling with deployment speed, team coordination, and scaling issues as the company grew from 50 to 200 employees.',
       solution: 'Migrated to microservices architecture, implemented CI/CD pipelines, established DevOps culture, and built comprehensive monitoring and alerting systems.',
       results: [
@@ -187,7 +187,7 @@ export default function CaseStudiesPage() {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://readdy.ai/api/search-image?query=Modern%20technology%20success%20story%20visualization%20with%20abstract%20digital%20network%20connections%2C%20data%20analytics%20dashboards%2C%20and%20growth%20metrics%20displayed%20on%20screens%20in%20contemporary%20office%20environment%2C%20professional%20business%20atmosphere%20with%20soft%20lighting%2C%20clean%20minimal%20aesthetic%20emphasizing%20innovation%20and%20achievement%2C%20subtle%20gradient%20overlay%20suitable%20for%20text%20placement&width=1920&height=800&seq=casestudies-hero-bg-001&orientation=landscape"
+            src="https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/casestudies-hero-bg-001.jpg"
             alt="Success Stories Background"
             className="w-full h-full object-cover object-center"
           />

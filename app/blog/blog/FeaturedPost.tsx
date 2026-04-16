@@ -14,7 +14,7 @@ export function FeaturedPost() {
             {/* Image */}
             <div className="relative h-64 lg:h-auto">
               <img
-                src="https://readdy.ai/api/search-image?query=Modern%20technology%20startup%20office%20with%20diverse%20team%20collaborating%20on%20innovative%20software%20development%20project%2C%20professional%20workspace%20with%20digital%20screens%20showing%20code%20and%20analytics%2C%20contemporary%20business%20environment%20emphasizing%20teamwork%20and%20innovation%2C%20clean%20minimal%20aesthetic%20with%20natural%20lighting&width=800&height=600&seq=blog-featured-001&orientation=landscape"
+                src="https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/blog-featured-001.jpg"
                 alt="Featured Article"
                 className="w-full h-full object-cover object-top"
               />

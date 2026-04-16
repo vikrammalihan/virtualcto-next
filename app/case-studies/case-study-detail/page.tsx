@@ -23,7 +23,7 @@ function CaseStudyContent() {
       date: '2024',
       duration: '18 months',
       client: 'Leading Payment Processing Startup',
-      heroImage: 'https://readdy.ai/api/search-image?query=modern%20fintech%20office%20with%20diverse%20African%20team%20working%20on%20financial%20technology%20platform%2C%20digital%20payment%20systems%20on%20screens%2C%20professional%20startup%20environment%20with%20indigo%20and%20violet%20accent%20lighting%2C%20contemporary%20workspace&width=1200&height=600&seq=case-detail-fintech-hero-001&orientation=landscape',
+      heroImage: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/case-detail-fintech-hero-001.jpg',
       overview: 'A rapidly growing payment processing startup in Nigeria faced critical infrastructure challenges as they experienced exponential user growth. The existing system struggled to handle increasing transaction volumes, threatening business continuity and customer trust.',
       challenge: {
         description: 'The startup was processing 10,000 daily transactions but needed to scale to handle over 1 million transactions per day. The existing monolithic architecture was causing frequent downtime, slow processing times, and compliance concerns. The team lacked the technical leadership to architect a scalable solution while maintaining PCI-DSS compliance.',
@@ -117,15 +117,15 @@ function CaseStudyContent() {
       },
       images: [
         {
-          url: 'https://readdy.ai/api/search-image?query=modern%20fintech%20dashboard%20showing%20real-time%20payment%20processing%20analytics%2C%20transaction%20monitoring%20screens%20with%20indigo%20and%20violet%20interface%2C%20professional%20financial%20technology%20visualization&width=800&height=500&seq=case-detail-fintech-img1-001&orientation=landscape',
+          url: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/case-detail-fintech-img1-001.jpg',
           caption: 'Real-time transaction monitoring dashboard'
         },
         {
-          url: 'https://readdy.ai/api/search-image?query=microservices%20architecture%20diagram%20with%20event-driven%20processing%2C%20cloud%20infrastructure%20visualization%20with%20indigo%20and%20violet%20color%20scheme%2C%20modern%20technical%20architecture&width=800&height=500&seq=case-detail-fintech-img2-001&orientation=landscape',
+          url: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/case-detail-fintech-img2-001.jpg',
           caption: 'Microservices architecture design'
         },
         {
-          url: 'https://readdy.ai/api/search-image?query=team%20collaboration%20in%20modern%20fintech%20office%2C%20diverse%20African%20engineers%20working%20together%20on%20technology%20project%2C%20professional%20startup%20environment%20with%20indigo%20lighting&width=800&height=500&seq=case-detail-fintech-img3-001&orientation=landscape',
+          url: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/case-detail-fintech-img3-001.jpg',
           caption: 'Engineering team collaboration'
         }
       ],

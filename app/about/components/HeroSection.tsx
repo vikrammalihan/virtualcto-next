@@ -16,7 +16,7 @@ export function HeroSection() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://readdy.ai/api/search-image?query=modern%20executive%20technology%20leader%20in%20contemporary%20professional%20office%20environment%20with%20digital%20screens%20displaying%20code%20and%20architecture%20diagrams%2C%20confident%20leadership%20presence%2C%20sophisticated%20workspace%20with%20ambient%20lighting%20creating%20professional%20atmosphere%2C%20clean%20minimalist%20aesthetic%20emphasizing%20innovation%20and%20expertise%2C%20subtle%20technology%20elements%20in%20background%2C%20warm%20natural%20lighting%20suitable%20for%20hero%20section%20with%20text%20overlay&width=1920&height=800&seq=about-hero-bg-001&orientation=landscape"
+          src="https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/about-hero-bg-001.jpg"
           alt="Technology Leadership"
           className="w-full h-full object-cover object-center"
         />

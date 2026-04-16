@@ -59,7 +59,7 @@ export function WhyChooseSection() {
 
           <div className="relative">
             <img
-              src="https://readdy.ai/api/search-image?query=Modern%20technology%20workspace%20with%20multiple%20monitors%20displaying%20code%20and%20analytics%20dashboards%2C%20contemporary%20office%20environment%20with%20natural%20light%2C%20professional%20business%20setting%20emphasizing%20innovation%20and%20digital%20transformation%2C%20clean%20minimal%20aesthetic&width=800&height=600&seq=why-choose-001&orientation=landscape"
+              src="https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/why-choose-001.jpg"
               alt="Technology Leadership"
               className="w-full h-auto rounded-2xl shadow-2xl object-cover object-top"
             />

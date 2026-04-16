@@ -165,7 +165,7 @@ useEffect(() => {
       {/* Background Image */}
       <div className="fixed inset-0 z-0">
         <img
-          src="https://readdy.ai/api/search-image?query=Professional%20technology%20consulting%20office%20environment%20with%20modern%20workspace%2C%20multiple%20screens%20showing%20service%20packages%20and%20pricing%20plans%2C%20contemporary%20business%20setting%20with%20clean%20design%2C%20soft%20lighting%20creating%20professional%20atmosphere%2C%20technology%20leadership%20consultation%20setup&width=1920&height=1080&seq=service-packages-bg&orientation=landscape"
+          src="https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/service-packages-bg.jpg"
           alt="Service Packages Background"
           className="w-full h-full object-cover object-center"
         />

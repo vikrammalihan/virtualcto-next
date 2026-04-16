@@ -65,7 +65,7 @@ export function HeroSection() {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl max-w-5xl mx-auto">
               <div className="w-full h-[400px] sm:h-[500px]">
                 <img
-                  src="https://readdy.ai/api/search-image?query=Modern%20Indian%20technology%20startup%20office%20in%20Bangalore%20with%20diverse%20team%20of%20software%20engineers%20collaborating%20on%20innovative%20projects%2C%20contemporary%20workspace%20with%20glass%20walls%20and%20digital%20displays%20showing%20code%20and%20analytics%2C%20vibrant%20tech%20hub%20atmosphere%20with%20natural%20lighting%2C%20professional%20photography%20showcasing%20Indias%20thriving%20startup%20ecosystem%20and%20innovation%20culture&width=1200&height=500&seq=india-hero-tech-001&orientation=landscape"
+                  src="https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/india-hero-tech-001.jpg"
                   alt="India Tech Ecosystem"
                   className="w-full h-full object-cover object-top"
                 />

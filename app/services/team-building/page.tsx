@@ -121,21 +121,21 @@ export default function TeamBuildingPage() {
       challenge: 'Needed to scale from 5 to 25 engineers in 6 months',
       solution: 'Created hiring pipeline, defined roles, established interview process',
       results: ['Hired 22 engineers', '90% retention after 1 year', '3x product velocity'],
-      image: 'https://readdy.ai/api/search-image?query=modern%20fintech%20office%20team%20collaboration%20engineers%20working%20together%20bright%20clean%20professional%20workspace%20technology%20screens%20minimal%20background%20diverse%20team%20members%20focused%20productive%20atmosphere&width=800&height=600&seq=teamcase1&orientation=landscape'
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/teamcase1.jpg'
     },
     {
       company: 'E-Commerce Platform',
       challenge: 'High turnover and struggling to attract senior talent',
       solution: 'Revamped culture, improved compensation, created career paths',
       results: ['Reduced turnover by 60%', 'Hired 8 senior engineers', 'Improved team morale'],
-      image: 'https://readdy.ai/api/search-image?query=ecommerce%20technology%20team%20meeting%20modern%20office%20collaborative%20workspace%20engineers%20discussing%20whiteboard%20bright%20professional%20clean%20background%20diverse%20group%20engaged%20productive%20session&width=800&height=600&seq=teamcase2&orientation=landscape'
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/teamcase2.jpg'
     },
     {
       company: 'SaaS Company',
       challenge: 'Needed to build entire engineering org from scratch',
       solution: 'Designed org structure, hired leadership, built teams',
       results: ['Built 40-person team', 'Launched product on time', 'Raised Series B'],
-      image: 'https://readdy.ai/api/search-image?query=saas%20company%20engineering%20team%20modern%20tech%20office%20collaborative%20space%20developers%20working%20computers%20bright%20clean%20professional%20minimal%20background%20diverse%20engineers%20focused%20productive%20environment&width=800&height=600&seq=teamcase3&orientation=landscape'
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/teamcase3.jpg'
     }
   ];
 

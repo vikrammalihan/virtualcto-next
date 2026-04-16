@@ -208,21 +208,21 @@ export default function ServicesPage() {
       author: 'Sarah Chen',
       role: 'CEO, FinTech Startup',
       company: 'PayFlow',
-      avatar: 'https://readdy.ai/api/search-image?query=professional%20african%20american%20woman%20ceo%20in%20modern%20office%20wearing%20business%20attire%20confident%20smile%20technology%20background&width=100&height=100&seq=testimonial-sarah&orientation=squarish'
+      avatar: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/testimonial-sarah.jpg'
     },
     {
       quote: "The technical due diligence service was incredibly thorough. It gave us the confidence to proceed with the acquisition and a clear roadmap for integration.",
       author: 'Michael Rodriguez',
       role: 'Managing Partner',
       company: 'Venture Capital Firm',
-      avatar: 'https://readdy.ai/api/search-image?query=professional%20hispanic%20businessman%20venture%20capitalist%20in%20suit%20confident%20expression%20modern%20office%20background&width=100&height=100&seq=testimonial-michael&orientation=squarish'
+      avatar: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/testimonial-michael.jpg'
     },
     {
       quote: "The architecture consulting helped us redesign our system for scale. We went from constant outages to handling 10x traffic without breaking a sweat.",
       author: 'Priya Sharma',
       role: 'CTO',
       company: 'HealthTech Platform',
-      avatar: 'https://readdy.ai/api/search-image?query=professional%20indian%20woman%20technology%20leader%20cto%20in%20modern%20workspace%20confident%20expression%20tech%20background&width=100&height=100&seq=testimonial-priya&orientation=squarish'
+      avatar: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/testimonial-priya.jpg'
     }
   ];
 
@@ -343,7 +343,7 @@ export default function ServicesPage() {
       <section className="relative pt-32 pb-20 overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://readdy.ai/api/search-image?query=modern%20technology%20consulting%20services%20abstract%20digital%20innovation%20network%20connections%20sophisticated%20business%20environment%20blue%20purple%20gradient%20professional%20lighting%20minimalist%20design%20high%20tech%20atmosphere&width=1920&height=800&seq=services-hero-bg&orientation=landscape"
+            src="https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/services-hero-bg.jpg"
             alt="Technology Services"
             className="w-full h-full object-cover object-top"
           />

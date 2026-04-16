@@ -41,7 +41,7 @@ function BlogPostContent() {
       readTime: '12 min read',
       author: 'Vikram Sharma',
       authorRole: 'Fractional CTO',
-      image: 'https://readdy.ai/api/search-image?query=diverse%20software%20engineering%20team%20collaborating%20in%20modern%20office%20with%20whiteboards%20and%20laptops%20showing%20code%20and%20architecture%20diagrams%20in%20bright%20professional%20workspace&width=1200&height=600&seq=blogpost1&orientation=landscape',
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/blogpost1.jpg',
       content: {
         intro: 'Building a technical team is one of the most critical decisions for any startup founder. As someone who has built and scaled engineering teams across multiple continents, I have learned that the process requires careful planning, strategic thinking, and a deep understanding of both technical and cultural dynamics.',
         sections: [
@@ -267,7 +267,7 @@ function BlogPostContent() {
       category: 'Due Diligence',
       date: 'March 10, 2024',
       readTime: '10 min read',
-      image: 'https://readdy.ai/api/search-image?query=professional%20business%20meeting%20with%20investors%20reviewing%20technical%20documents%20and%20code%20architecture%20on%20large%20screens%20in%20modern%20conference%20room%20with%20clean%20minimalist%20design&width=400&height=250&seq=related1&orientation=landscape'
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/related1.jpg'
     },
     {
       id: '3',
@@ -275,7 +275,7 @@ function BlogPostContent() {
       category: 'Architecture',
       date: 'March 5, 2024',
       readTime: '8 min read',
-      image: 'https://readdy.ai/api/search-image?query=software%20architecture%20blueprint%20with%20system%20diagrams%20and%20flowcharts%20on%20digital%20screens%20showing%20microservices%20and%20cloud%20infrastructure%20in%20modern%20tech%20office%20environment&width=400&height=250&seq=related2&orientation=landscape'
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/related2.jpg'
     }
   ].filter(post => post.id !== postId);
 

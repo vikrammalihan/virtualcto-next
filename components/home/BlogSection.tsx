@@ -12,7 +12,7 @@ export function BlogSection() {
       author: 'Vikram Singh Malihan',
       date: 'March 15, 2024',
       readTime: '8 min read',
-      image: 'https://readdy.ai/api/search-image?query=Modern%20technology%20infrastructure%20with%20servers%20and%20cloud%20computing%20visualization%2C%20African%20startup%20office%20environment%20with%20developers%20working%20on%20laptops%2C%20contemporary%20workspace%20with%20digital%20screens%20showing%20system%20architecture%20diagrams%2C%20professional%20tech%20photography%20with%20warm%20lighting%20and%20innovative%20atmosphere&width=600&height=400&seq=blog-001&orientation=landscape',
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/blog-001.jpg',
       tags: ['Infrastructure', 'Startups', 'Africa']
     },
     {
@@ -23,7 +23,7 @@ export function BlogSection() {
       author: 'Vikram Singh Malihan',
       date: 'March 10, 2024',
       readTime: '12 min read',
-      image: 'https://readdy.ai/api/search-image?query=Software%20architecture%20visualization%20with%20interconnected%20nodes%20and%20system%20diagrams%2C%20modern%20tech%20office%20with%20whiteboard%20showing%20microservices%20architecture%20patterns%2C%20professional%20developers%20discussing%20technical%20solutions%2C%20clean%20minimal%20background%20with%20blue%20and%20teal%20accent%20colors&width=600&height=400&seq=blog-002&orientation=landscape',
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/blog-002.jpg',
       tags: ['Architecture', 'Best Practices', 'Scaling']
     },
     {
@@ -34,7 +34,7 @@ export function BlogSection() {
       author: 'Vikram Singh Malihan',
       date: 'March 5, 2024',
       readTime: '10 min read',
-      image: 'https://readdy.ai/api/search-image?query=Financial%20technology%20compliance%20and%20security%20concept%20with%20digital%20banking%20interface%2C%20professional%20business%20setting%20with%20documents%20and%20laptop%20showing%20regulatory%20frameworks%2C%20modern%20office%20environment%20with%20global%20map%20highlighting%20Africa%20Europe%20Middle%20East%2C%20clean%20professional%20photography&width=600&height=400&seq=blog-003&orientation=landscape',
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/blog-003.jpg',
       tags: ['FinTech', 'Compliance', 'Regulations']
     },
     {
@@ -45,7 +45,7 @@ export function BlogSection() {
       author: 'Vikram Singh Malihan',
       date: 'February 28, 2024',
       readTime: '9 min read',
-      image: 'https://readdy.ai/api/search-image?query=Remote%20engineering%20team%20collaboration%20with%20video%20conference%20screens%20showing%20diverse%20developers%2C%20modern%20home%20office%20setup%20with%20multiple%20monitors%20displaying%20code%20and%20project%20management%20tools%2C%20professional%20workspace%20with%20natural%20lighting%20and%20plants%2C%20contemporary%20tech%20team%20photography&width=600&height=400&seq=blog-004&orientation=landscape',
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/blog-004.jpg',
       tags: ['Team Building', 'Remote Work', 'Leadership']
     },
     {
@@ -56,7 +56,7 @@ export function BlogSection() {
       author: 'Vikram Singh Malihan',
       date: 'February 20, 2024',
       readTime: '11 min read',
-      image: 'https://readdy.ai/api/search-image?query=Cybersecurity%20and%20API%20protection%20visualization%20with%20digital%20lock%20icons%20and%20encrypted%20data%20streams%2C%20modern%20tech%20workspace%20with%20security%20dashboard%20on%20screens%2C%20professional%20developer%20reviewing%20security%20protocols%2C%20clean%20minimal%20background%20with%20green%20and%20teal%20security%20indicators&width=600&height=400&seq=blog-005&orientation=landscape',
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/blog-005.jpg',
       tags: ['Security', 'APIs', 'Best Practices']
     },
     {
@@ -67,7 +67,7 @@ export function BlogSection() {
       author: 'Vikram Singh Malihan',
       date: 'February 15, 2024',
       readTime: '13 min read',
-      image: 'https://readdy.ai/api/search-image?query=Healthcare%20technology%20innovation%20with%20medical%20professionals%20using%20tablets%20and%20digital%20health%20platforms%2C%20modern%20hospital%20or%20clinic%20setting%20with%20telemedicine%20equipment%2C%20professional%20healthcare%20workers%20reviewing%20patient%20data%20on%20screens%2C%20clean%20bright%20medical%20environment%20with%20technology%20integration&width=600&height=400&seq=blog-006&orientation=landscape',
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/blog-006.jpg',
       tags: ['HealthTech', 'Innovation', 'Case Study']
     }
   ];

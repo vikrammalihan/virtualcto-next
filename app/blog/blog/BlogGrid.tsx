@@ -9,7 +9,7 @@ export function BlogGrid() {
       author: 'Vikram Singh Malihan',
       date: 'March 10, 2024',
       readTime: '8 min read',
-      image: 'https://readdy.ai/api/search-image?query=Diverse%20software%20engineering%20team%20collaborating%20in%20modern%20office%20space%2C%20professional%20developers%20working%20together%20on%20computers%2C%20contemporary%20workspace%20with%20technology%20focus%2C%20clean%20minimal%20background%20emphasizing%20teamwork%20and%20diversity&width=600&height=400&seq=blog-team-001&orientation=landscape'
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/blog-team-001.jpg'
     },
     {
       category: 'Technology Strategy',
@@ -18,7 +18,7 @@ export function BlogGrid() {
       author: 'Vikram Singh Malihan',
       date: 'March 5, 2024',
       readTime: '10 min read',
-      image: 'https://readdy.ai/api/search-image?query=Modern%20cloud%20computing%20infrastructure%20visualization%20with%20servers%20and%20network%20connections%2C%20abstract%20technology%20concept%20showing%20distributed%20systems%2C%20professional%20digital%20illustration%20with%20clean%20minimal%20aesthetic&width=600&height=400&seq=blog-cloud-001&orientation=landscape'
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/blog-cloud-001.jpg'
     },
     {
       category: 'Startup Growth',
@@ -27,7 +27,7 @@ export function BlogGrid() {
       author: 'Vikram Singh Malihan',
       date: 'February 28, 2024',
       readTime: '7 min read',
-      image: 'https://readdy.ai/api/search-image?query=Business%20investors%20reviewing%20technology%20documents%20and%20analytics%20on%20digital%20screens%2C%20professional%20meeting%20room%20setting%20with%20data%20visualization%2C%20contemporary%20corporate%20environment%20emphasizing%20analysis%20and%20decision%20making&width=600&height=400&seq=blog-diligence-001&orientation=landscape'
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/blog-diligence-001.jpg'
     },
     {
       category: 'Regional Insights',
@@ -36,7 +36,7 @@ export function BlogGrid() {
       author: 'Vikram Singh Malihan',
       date: 'February 20, 2024',
       readTime: '9 min read',
-      image: 'https://readdy.ai/api/search-image?query=Modern%20African%20technology%20startup%20office%20with%20innovative%20team%20working%20on%20computers%2C%20vibrant%20workspace%20showing%20entrepreneurship%20and%20innovation%2C%20contemporary%20setting%20emphasizing%20growth%20and%20opportunity%20in%20emerging%20markets&width=600&height=400&seq=blog-africa-001&orientation=landscape'
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/blog-africa-001.jpg'
     },
     {
       category: 'Technology Strategy',
@@ -45,7 +45,7 @@ export function BlogGrid() {
       author: 'Vikram Singh Malihan',
       date: 'February 15, 2024',
       readTime: '11 min read',
-      image: 'https://readdy.ai/api/search-image?query=Software%20architecture%20diagram%20showing%20system%20components%20and%20connections%2C%20abstract%20technical%20illustration%20of%20distributed%20systems%2C%20professional%20visualization%20with%20clean%20minimal%20design%20emphasizing%20structure%20and%20organization&width=600&height=400&seq=blog-architecture-001&orientation=landscape'
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/blog-architecture-001.jpg'
     },
     {
       category: 'Team Building',
@@ -54,7 +54,7 @@ export function BlogGrid() {
       author: 'Vikram Singh Malihan',
       date: 'February 10, 2024',
       readTime: '6 min read',
-      image: 'https://readdy.ai/api/search-image?query=Remote%20team%20video%20conference%20call%20with%20diverse%20professionals%20working%20from%20different%20locations%2C%20modern%20home%20office%20setup%20with%20technology%2C%20contemporary%20workspace%20emphasizing%20virtual%20collaboration%20and%20connectivity&width=600&height=400&seq=blog-remote-001&orientation=landscape'
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/blog-remote-001.jpg'
     },
     {
       category: 'Startup Growth',
@@ -63,7 +63,7 @@ export function BlogGrid() {
       author: 'Vikram Singh Malihan',
       date: 'February 5, 2024',
       readTime: '12 min read',
-      image: 'https://readdy.ai/api/search-image?query=Technology%20growth%20concept%20showing%20progression%20from%20small%20to%20large%20scale%20systems%2C%20abstract%20visualization%20of%20scaling%20infrastructure%2C%20professional%20illustration%20with%20clean%20minimal%20aesthetic%20emphasizing%20expansion%20and%20development&width=600&height=400&seq=blog-scaling-001&orientation=landscape'
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/blog-scaling-001.jpg'
     },
     {
       category: 'Regional Insights',
@@ -72,7 +72,7 @@ export function BlogGrid() {
       author: 'Vikram Singh Malihan',
       date: 'January 30, 2024',
       readTime: '8 min read',
-      image: 'https://readdy.ai/api/search-image?query=Modern%20Middle%20Eastern%20business%20district%20with%20technology%20companies%20and%20innovation%20centers%2C%20contemporary%20architecture%20showing%20economic%20growth%2C%20professional%20photography%20emphasizing%20investment%20and%20development%20opportunities&width=600&height=400&seq=blog-middleeast-001&orientation=landscape'
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/blog-middleeast-001.jpg'
     },
     {
       category: 'Technology Strategy',
@@ -81,7 +81,7 @@ export function BlogGrid() {
       author: 'Vikram Singh Malihan',
       date: 'January 25, 2024',
       readTime: '10 min read',
-      image: 'https://readdy.ai/api/search-image?query=Cybersecurity%20concept%20with%20digital%20lock%20and%20shield%20protecting%20data%2C%20abstract%20technology%20illustration%20showing%20security%20measures%2C%20professional%20visualization%20with%20clean%20minimal%20design%20emphasizing%20protection%20and%20safety&width=600&height=400&seq=blog-security-001&orientation=landscape'
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/blog-security-001.jpg'
     }
   ];
 

@@ -9,7 +9,7 @@ export function FeaturedCaseStudies() {
       challenge: 'Payment processing platform struggling with 10x user growth and system reliability issues',
       solution: 'Redesigned architecture for horizontal scaling, implemented microservices, and established DevOps practices',
       results: ['100x Scale', '99.99% Uptime', '$50M Processed'],
-      image: 'https://readdy.ai/api/search-image?query=modern%20fintech%20office%20with%20diverse%20team%20working%20on%20financial%20technology%20platform%2C%20digital%20payment%20systems%20on%20screens%2C%20professional%20African%20startup%20environment%20with%20indigo%20and%20violet%20accent%20lighting&width=600&height=400&seq=case-cto-001&orientation=landscape',
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/case-cto-001.jpg',
       tags: ['Architecture', 'Scaling', 'DevOps']
     },
     {
@@ -19,7 +19,7 @@ export function FeaturedCaseStudies() {
       challenge: 'Early-stage startup needed to build HIPAA-compliant telemedicine platform from scratch',
       solution: 'Defined technical strategy, built engineering team, and delivered secure MVP with compliance',
       results: ['6-month MVP delivery', 'HIPAA compliant', '15-person team built', '$2M seed raised'],
-      image: 'https://readdy.ai/api/search-image?query=modern%20healthcare%20technology%20platform%20with%20medical%20professionals%20using%20telemedicine%20software%2C%20clean%20hospital%20environment%20with%20digital%20health%20records%2C%20indigo%20and%20violet%20interface%20elements&width=600&height=400&seq=case-cto-002&orientation=landscape',
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/case-cto-002.jpg',
       tags: ['MVP', 'Compliance', 'Team Building']
     },
     {
@@ -29,7 +29,7 @@ export function FeaturedCaseStudies() {
       challenge: 'Learning management system with poor performance affecting 50K+ students daily',
       solution: 'Performance audit, database optimization, caching strategy, and infrastructure modernization',
       results: ['80% faster load times', '10x concurrent users', '40% cost savings', 'Zero downtime migration'],
-      image: 'https://readdy.ai/api/search-image?query=Students%20using%20educational%20technology%20platform%20on%20laptops%20and%20tablets%20in%20modern%20classroom%2C%20interactive%20learning%20interface%20with%20course%20content%20and%20video%20lessons%2C%20contemporary%20education%20environment%20emphasizing%20digital%20learning%20and%20engagement&width=600&height=400&seq=case-edtech-001&orientation=landscape',
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/case-edtech-001.jpg',
       tags: ['Performance', 'Optimization', 'Infrastructure']
     }
   ];

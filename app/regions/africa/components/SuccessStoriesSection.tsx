@@ -6,7 +6,7 @@ export function SuccessStoriesSection() {
       company: 'FinTech Startup',
       location: 'Lagos, Nigeria',
       industry: 'Financial Services',
-      image: 'https://readdy.ai/api/search-image?query=Modern%20fintech%20mobile%20app%20interface%20on%20smartphone%20showing%20digital%20payment%20transaction%20in%20African%20context%2C%20clean%20minimal%20design%20with%20vibrant%20colors%2C%20professional%20product%20photography%20with%20simple%20background%20emphasizing%20mobile%20banking%20innovation%20and%20financial%20inclusion%20in%20Nigeria&width=600&height=400&seq=africa-fintech-001&orientation=landscape',
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/africa-fintech-001.jpg',
       challenge: 'Needed to integrate multiple mobile money providers across West Africa while ensuring regulatory compliance',
       solution: 'Designed unified payment architecture supporting M-Pesa, MTN Mobile Money, and Airtel Money with built-in compliance framework',
       results: [
@@ -20,7 +20,7 @@ export function SuccessStoriesSection() {
       company: 'E-Commerce Platform',
       location: 'Nairobi, Kenya',
       industry: 'Retail Technology',
-      image: 'https://readdy.ai/api/search-image?query=African%20e-commerce%20platform%20dashboard%20showing%20product%20listings%20and%20order%20management%20on%20laptop%20screen%2C%20modern%20web%20application%20interface%20with%20colorful%20product%20images%2C%20professional%20photography%20with%20simple%20background%20emphasizing%20online%20retail%20technology%20and%20digital%20commerce%20in%20Kenya&width=600&height=400&seq=africa-ecommerce-001&orientation=landscape',
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/africa-ecommerce-001.jpg',
       challenge: 'Struggling to scale infrastructure to handle rapid growth and varying internet connectivity across East Africa',
       solution: 'Implemented progressive web app with offline capabilities and optimized for low-bandwidth environments',
       results: [
@@ -34,7 +34,7 @@ export function SuccessStoriesSection() {
       company: 'AgriTech Solution',
       location: 'Cape Town, South Africa',
       industry: 'Agriculture Technology',
-      image: 'https://readdy.ai/api/search-image?query=Agricultural%20technology%20mobile%20app%20showing%20farm%20management%20and%20crop%20monitoring%20on%20tablet%20device%20in%20rural%20African%20setting%2C%20modern%20interface%20with%20data%20visualization%20and%20maps%2C%20professional%20photography%20with%20simple%20background%20emphasizing%20agritech%20innovation%20and%20smart%20farming%20in%20South%20Africa&width=600&height=400&seq=africa-agritech-001&orientation=landscape',
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/africa-agritech-001.jpg',
       challenge: 'Required technology solution that works in rural areas with limited connectivity and serves farmers with basic smartphones',
       solution: 'Built SMS-based system with progressive enhancement for smartphone users, optimized for 2G networks',
       results: [

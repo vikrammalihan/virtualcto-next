@@ -6,7 +6,7 @@ export function SuccessStoriesSection() {
       company: 'PayFlow ME',
       location: 'Dubai, UAE',
       industry: 'Fintech',
-      image: 'https://readdy.ai/api/search-image?query=Modern%20fintech%20mobile%20payment%20application%20interface%20on%20smartphone%20with%20Dubai%20skyline%20in%20background%2C%20sleek%20digital%20banking%20dashboard%20showing%20transaction%20flows%20and%20financial%20data%2C%20contemporary%20Middle%20Eastern%20business%20setting%20with%20warm%20lighting%20and%20professional%20atmosphere%20emphasizing%20innovation%20and%20secure%20digital%20payments&width=600&height=400&seq=success-dubai-fintech-001&orientation=landscape',
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/success-dubai-fintech-001.jpg',
       challenge: 'Needed to build a payment platform compliant with UAE Central Bank regulations while scaling to handle 100K+ daily transactions.',
       solution: 'Architected a cloud-native payment infrastructure with multi-currency support, implemented PCI DSS compliance, and built a scalable microservices architecture.',
       results: [
@@ -20,7 +20,7 @@ export function SuccessStoriesSection() {
       company: 'HealthConnect',
       location: 'Riyadh, Saudi Arabia',
       industry: 'HealthTech',
-      image: 'https://readdy.ai/api/search-image?query=Advanced%20healthcare%20technology%20platform%20showing%20telemedicine%20consultation%20on%20tablet%20device%20in%20modern%20Saudi%20Arabian%20medical%20facility%2C%20clean%20medical%20interface%20with%20patient%20data%20and%20video%20call%20features%2C%20professional%20healthcare%20setting%20with%20contemporary%20architecture%20and%20warm%20ambient%20lighting%20emphasizing%20digital%20health%20innovation&width=600&height=400&seq=success-riyadh-health-002&orientation=landscape',
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/success-riyadh-health-002.jpg',
       challenge: 'Required HIPAA-equivalent compliance for Saudi Arabia while building a telemedicine platform during rapid market expansion.',
       solution: 'Designed secure healthcare data architecture with local data residency, implemented end-to-end encryption, and built scalable video consultation infrastructure.',
       results: [
@@ -34,7 +34,7 @@ export function SuccessStoriesSection() {
       company: 'LogiTech Solutions',
       location: 'Abu Dhabi, UAE',
       industry: 'Logistics',
-      image: 'https://readdy.ai/api/search-image?query=Sophisticated%20logistics%20tracking%20dashboard%20displaying%20real-time%20delivery%20routes%20and%20warehouse%20management%20system%20in%20modern%20Abu%20Dhabi%20distribution%20center%2C%20advanced%20supply%20chain%20technology%20interface%20with%20maps%20and%20analytics%2C%20contemporary%20industrial%20setting%20with%20blue%20and%20purple%20accent%20lighting%20emphasizing%20efficiency%20and%20digital%20transformation&width=600&height=400&seq=success-abudhabi-logistics-003&orientation=landscape',
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/success-abudhabi-logistics-003.jpg',
       challenge: 'Needed to modernize legacy logistics systems and integrate with regional e-commerce platforms for same-day delivery.',
       solution: 'Led digital transformation initiative, migrated to cloud infrastructure, implemented real-time tracking, and integrated with major e-commerce platforms.',
       results: [

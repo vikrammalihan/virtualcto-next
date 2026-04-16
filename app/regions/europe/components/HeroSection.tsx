@@ -159,7 +159,7 @@ export function HeroSection({ theme, toggleTheme }: HeroSectionProps) {
             <div className="relative">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src="https://readdy.ai/api/search-image?query=Modern%20European%20cityscape%20with%20iconic%20architecture%20featuring%20London%20Big%20Ben%20Berlin%20TV%20Tower%20Paris%20Eiffel%20Tower%20and%20Amsterdam%20canals%20in%20a%20cohesive%20panoramic%20view%2C%20contemporary%20urban%20skyline%20with%20technology%20overlay%20showing%20digital%20connectivity%20network%20lines%20and%20data%20points%2C%20professional%20business%20photography%20style%20with%20clean%20composition%20emphasizing%20innovation%20and%20European%20tech%20ecosystem%2C%20vibrant%20colors%20with%20blue%20and%20purple%20accent%20lighting%2C%20high%20quality%20architectural%20photography&width=800&height=900&seq=hero-europe-tech-001&orientation=portrait"
+                  src="https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/hero-europe-tech-001.jpg"
                   alt="European Tech Ecosystem"
                   className="w-full h-auto object-cover object-top"
                 />

@@ -65,7 +65,7 @@ export function HeroSection() {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <div className="w-full h-[500px]">
                 <img
-                  src="https://readdy.ai/api/search-image?query=Modern%20futuristic%20cityscape%20of%20Dubai%20skyline%20with%20Burj%20Khalifa%20at%20sunset%2C%20gleaming%20skyscrapers%20and%20contemporary%20architecture%20representing%20innovation%20and%20technology%20hub%2C%20warm%20golden%20lighting%20with%20purple%20and%20blue%20tones%2C%20professional%20architectural%20photography%20showcasing%20Middle%20Eastern%20business%20district%20and%20digital%20transformation&width=1400&height=500&seq=hero-middleeast-001&orientation=landscape"
+                  src="https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/hero-middleeast-001.jpg"
                   alt="Middle East Technology Hub"
                   className="w-full h-full object-cover object-top"
                   onError={(e) => {
