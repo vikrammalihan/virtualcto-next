@@ -62,7 +62,41 @@ export default function BlogPage() {
       readTime: '10 min read',
       image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/blog-003.jpg',
       tags: ['FinTech', 'Compliance', 'Regulations']
+    },
+{
+      id: 4,
+      category: 'Strategy',
+      title: 'Building High-Performance Engineering Teams Remotely',
+      excerpt: 'Proven strategies for recruiting, onboarding, and managing distributed technical teams across multiple time zones.',
+      author: 'Vikram Singh Malihan',
+      date: 'February 28, 2024',
+      readTime: '9 min read',
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/blog-004.jpg',
+      tags: ['Team Building', 'Remote Work', 'Leadership']
+    },
+    {
+      id: 5,
+      category: 'Technical',
+      title: 'API Security Best Practices for Startups',
+      excerpt: 'Essential security measures every startup should implement to protect their APIs and customer data from day one.',
+      author: 'Vikram Singh Malihan',
+      date: 'February 20, 2024',
+      readTime: '11 min read',
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/blog-005.jpg',
+      tags: ['Security', 'APIs', 'Best Practices']
+    },
+    {
+      id: 6,
+      category: 'Industry',
+      title: 'HealthTech Innovation: Lessons from Successful Implementations',
+      excerpt: 'Real-world insights from deploying healthcare technology solutions across emerging markets with limited infrastructure.',
+      author: 'Vikram Singh Malihan',
+      date: 'February 15, 2024',
+      readTime: '13 min read',
+      image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/blog-006.jpg',
+      tags: ['HealthTech', 'Innovation', 'Case Study']
     }
+
   ];
 
   return (

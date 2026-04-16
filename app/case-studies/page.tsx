@@ -292,7 +292,7 @@ export default function CaseStudiesPage() {
             {filteredCaseStudies.map((study) => (
               <a
                 key={study.id}
-                href={`/case-study-detail?id=${study.id}`}
+                href={`/case-studies/case-study-detail?id=${study.id}`}
                 className="bg-white dark:bg-slate-800 rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-700 hover:shadow-xl hover:shadow-indigo-500/10 transition-all duration-300 group cursor-pointer block"
               >
                 {/* Image */}

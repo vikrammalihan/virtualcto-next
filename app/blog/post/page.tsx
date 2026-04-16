@@ -39,7 +39,7 @@ function BlogPostContent() {
       category: 'Team Building',
       date: 'March 15, 2024',
       readTime: '12 min read',
-      author: 'Vikram Sharma',
+      author: 'Vikram Malihan',
       authorRole: 'Fractional CTO',
       image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/blogpost1.jpg',
       content: {
@@ -119,7 +119,7 @@ function BlogPostContent() {
       category: 'Due Diligence',
       date: 'March 10, 2024',
       readTime: '10 min read',
-      author: 'Vikram Sharma',
+      author: 'Vikram Malihan',
       authorRole: 'Fractional CTO',
       image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/blog-002.jpg',
       content: {
@@ -190,7 +190,7 @@ function BlogPostContent() {
       category: 'Architecture',
       date: 'March 5, 2024',
       readTime: '8 min read',
-      author: 'Vikram Sharma',
+      author: 'Vikram Malihan',
       authorRole: 'Fractional CTO',
       image: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/blog-003.jpg',
       content: {
@@ -256,6 +256,7 @@ function BlogPostContent() {
       },
       tags: ['Architecture', 'Scaling', 'Technical Debt', 'Engineering Strategy']
     }
+    
   };
 
   const currentPost = blogPosts[postId] || blogPosts['1'];
