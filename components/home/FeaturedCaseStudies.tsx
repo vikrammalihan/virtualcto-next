@@ -1,5 +1,7 @@
 'use client';
 
+import Link from 'next/link';
+
 export function FeaturedCaseStudies() {
   const caseStudies = [
     {
@@ -55,8 +57,8 @@ export function FeaturedCaseStudies() {
 
         <div className="grid lg:grid-cols-3 gap-6 sm:gap-8">
           {caseStudies.map((study, index) => (
+            <Link key={index} href={`/case-studies/case-study-detail?id=${index + 1}`}>
             <div
-              key={index}
               className="group bg-white dark:bg-slate-800 rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-700 hover:shadow-2xl hover:border-indigo-500 dark:hover:border-indigo-500 transition-all duration-300"
             >
               <div className="relative h-48 overflow-hidden">
@@ -111,18 +113,19 @@ export function FeaturedCaseStudies() {
                   ))}
                 </div>
 
-                <button className="w-full px-6 py-3 bg-slate-100 dark:bg-slate-700 text-slate-900 dark:text-white text-sm font-semibold rounded-lg hover:bg-gradient-to-r hover:from-indigo-600 hover:to-violet-600 hover:text-white transition-all duration-300 whitespace-nowrap cursor-pointer">
+                <span className="block w-full px-6 py-3 bg-slate-100 dark:bg-slate-700 text-slate-900 dark:text-white text-sm font-semibold rounded-lg hover:bg-gradient-to-r hover:from-indigo-600 hover:to-violet-600 hover:text-white transition-all duration-300 whitespace-nowrap cursor-pointer text-center">
                   Read Full Case Study
-                </button>
+                </span>
               </div>
             </div>
+            </Link>
           ))}
         </div>
 
         <div className="text-center mt-12">
-          <button className="px-8 py-4 bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-white text-base font-semibold rounded-lg border-2 border-slate-200 dark:border-slate-700 hover:border-indigo-500 dark:hover:border-indigo-500 transition-all duration-300 whitespace-nowrap cursor-pointer">
+          <Link href="/case-studies" className="inline-block px-8 py-4 bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-white text-base font-semibold rounded-lg border-2 border-slate-200 dark:border-slate-700 hover:border-indigo-500 dark:hover:border-indigo-500 transition-all duration-300 whitespace-nowrap cursor-pointer">
             View All Case Studies
-          </button>
+          </Link>
         </div>
       </div>
     </section>

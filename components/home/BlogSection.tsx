@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 
 export function BlogSection() {
   const blogPosts = [
@@ -116,8 +117,8 @@ export function BlogSection() {
         {/* Blog Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredPosts.map((post) => (
+            <Link key={post.id} href={`/blog/post?id=${post.id}`}>
             <article
-              key={post.id}
               className="group bg-white dark:bg-slate-800 rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700 hover:shadow-xl hover:shadow-indigo-500/10 transition-all duration-300 cursor-pointer"
             >
               {/* Image */}
@@ -172,15 +173,16 @@ export function BlogSection() {
                 </div>
               </div>
             </article>
+            </Link>
           ))}
         </div>
 
         {/* View All Button */}
         <div className="text-center mt-12">
-          <button className="px-8 py-4 bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-white text-base font-semibold rounded-lg border-2 border-slate-200 dark:border-slate-700 hover:border-indigo-500 dark:hover:border-indigo-500 transition-all duration-300 whitespace-nowrap cursor-pointer">
+          <Link href="/blog" className="inline-block px-8 py-4 bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-white text-base font-semibold rounded-lg border-2 border-slate-200 dark:border-slate-700 hover:border-indigo-500 dark:hover:border-indigo-500 transition-all duration-300 whitespace-nowrap cursor-pointer">
             View All Articles
             <i className="ri-arrow-right-line ml-2"></i>
-          </button>
+          </Link>
         </div>
       </div>
     </section>

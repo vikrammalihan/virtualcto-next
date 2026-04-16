@@ -52,13 +52,13 @@ export function Footer() {
               Fractional CTO services for growth-stage startups across Africa, Europe, Middle East, and India. 25+ years of IT leadership experience.
             </p>
             <div className="flex items-center space-x-4">
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 flex items-center justify-center bg-slate-200 dark:bg-slate-700 rounded-lg text-slate-700 dark:text-slate-300 hover:bg-indigo-500 hover:text-white transition-colors cursor-pointer">
+              <a href="https://www.linkedin.com/in/vikram-malihan/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 flex items-center justify-center bg-slate-200 dark:bg-slate-700 rounded-lg text-slate-700 dark:text-slate-300 hover:bg-indigo-500 hover:text-white transition-colors cursor-pointer">
                 <i className="ri-linkedin-fill text-lg"></i>
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 flex items-center justify-center bg-slate-200 dark:bg-slate-700 rounded-lg text-slate-700 dark:text-slate-300 hover:bg-indigo-500 hover:text-white transition-colors cursor-pointer">
+              <a href="https://twitter.com/thevirtualcto" target="_blank" rel="noopener noreferrer" className="w-10 h-10 flex items-center justify-center bg-slate-200 dark:bg-slate-700 rounded-lg text-slate-700 dark:text-slate-300 hover:bg-indigo-500 hover:text-white transition-colors cursor-pointer">
                 <i className="ri-twitter-x-line text-lg"></i>
               </a>
-              <a href="mailto:contact@thevirtualcto.in" className="w-10 h-10 flex items-center justify-center bg-slate-200 dark:bg-slate-700 rounded-lg text-slate-700 dark:text-slate-300 hover:bg-indigo-500 hover:text-white transition-colors cursor-pointer">
+              <a href="mailto:vikram@thevirtualcto.in" className="w-10 h-10 flex items-center justify-center bg-slate-200 dark:bg-slate-700 rounded-lg text-slate-700 dark:text-slate-300 hover:bg-indigo-500 hover:text-white transition-colors cursor-pointer">
                 <i className="ri-mail-line text-lg"></i>
               </a>
             </div>

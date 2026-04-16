@@ -147,7 +147,7 @@ function CaseStudyContent() {
       date: '2024',
       duration: '12 months',
       client: 'Telemedicine Platform Provider',
-      heroImage: 'https://readdy.ai/api/search-image?query=modern%20healthcare%20technology%20platform%20with%20medical%20professionals%20using%20telemedicine%20software%20in%20Indian%20hospital%2C%20clean%20medical%20environment%20with%20digital%20health%20records%2C%20indigo%20and%20violet%20interface%20elements%2C%20contemporary%20healthcare%20setting&width=1200&height=600&seq=case-detail-health-hero-002&orientation=landscape',
+      heroImage: 'https://virtual-cto.s3.ap-south-1.amazonaws.com/assets/images/case-cto-002.jpg',
       overview: 'A telemedicine platform needed to rapidly scale to serve hundreds of hospitals across India while ensuring HIPAA compliance and integrating AI-powered diagnostic tools.',
       challenge: {
         description: 'The platform needed to handle sensitive patient data across 500+ hospitals while maintaining strict HIPAA compliance. The existing infrastructure lacked proper security measures, and the team needed guidance on implementing AI diagnostics and video consultation systems.',
